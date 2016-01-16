@@ -3,3 +3,24 @@
  * Responsive.
  * ----------------------------------------------------------------------------------------
  */
+ @media (max-width: 767px) {
+  	
+  	.projects {
+		padding: 0 30px; 
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  	.container {
+    	width: 1150px;
+	}
+}

@@ -3,3 +3,27 @@
  * Footer styles.
  * ----------------------------------------------------------------------------------------
  */
+
+ footer {
+ 	color: #fff; 
+ 	background: #5c5c5c;
+ 	padding: 16px 40px; 
+ 	font-size: .8em; 
+ 	ul {display: inline; margin-right: 10px;  }
+	ul li a { 
+		color: #fff; 
+		&::after {
+			content: "/";
+			padding-left: 4px; 
+		}
+		&:hover, &:active {
+			color: #fff; 
+		}
+	 }
+	 .list-inline>li {
+	    padding-right: 0; 
+	    padding-left: 0px; 
+	}
+	span {padding-right: 4px; }
+	p.refer {display: inline; }
+ }//
