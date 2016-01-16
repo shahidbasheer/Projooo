@@ -1,0 +1,43 @@
+/*
+ * ----------------------------------------------------------------------------------------
+ * Nav styles.
+ * ----------------------------------------------------------------------------------------
+ */
+.navbar {
+    border-radius: 0;
+    border: 0;
+}
+.navbar-default {
+	background-color: #45a7b9;
+	border-color: transparent;
+	.navbar-nav li { 
+		a { 
+			background: #45a7b9; color: #fff;  border-right: 1px solid #77bfcc;  
+			&:hover, &:active { background: #028aa3;     color: #fff; }
+		}
+
+		&.active a, &.active:hover a, &.active:focus a { background: #028aa3; color: #fff;  }
+	}
+	.navbar-collapse {
+	    padding-right: 0;
+	    padding-left: 0; 
+	}
+	.container-fluid {
+	    padding-right: 0;
+	    padding-left: 0; 
+	}
+	.dropdown-menu { 
+		background: #45a7b9; 
+	}
+	.navbar-nav>.open>a, 
+	.navbar-nav>.open>a:hover, 
+	.navbar-nav>.open>a:focus {
+	    color: #fff;
+	    background-color: #028aa3;
+	}
+	.navbar-nav>.open>a:hover, 
+	.navbar-nav>.open>a:focus {
+	   border: 0; 
+	    
+	}
+}// end 
