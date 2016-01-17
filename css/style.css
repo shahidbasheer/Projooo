@@ -10,6 +10,10 @@
   color: #ffd800;
 }
 
+.green {
+  color: #328600;
+}
+
 .footer-bg {
   background: #5c5c5c;
 }
@@ -378,6 +382,7 @@
   max-width: 100px;
   color: #000;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .ws__notify--yello {
@@ -390,12 +395,16 @@
 
 .ws__discuss .ws__discuss__inner {
   border: 1px solid #ddd;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .ws__discuss h4 {
   font-weight: bold;
   padding: 8px 20px;
+}
+
+.ws__discuss .table {
+  margin-bottom: 0;
 }
 
 .ws__discuss .table > thead > tr > th {
@@ -407,14 +416,11 @@
   width: 10%;
   text-align: left;
   padding: 8px 20px;
+  vertical-align: baseline;
 }
 
 .ws__discuss .width-90 {
   width: 90% !important;
-}
-
-.ws__discuss .width-10 {
-  width: 10% !important;
 }
 
 .ws__discuss img {
@@ -438,13 +444,266 @@
   color: #666666;
 }
 
-.ws__discuss span.date {
-  font-size: 14px;
-  color: #aa9c84;
-}
-
 .ws__discuss a.more {
   text-decoration: underline;
+  color: #000;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+.ws__discuss a:hover.more {
+  text-decoration: underline;
+  color: #000;
+}
+
+.ws__tasks {
+  margin-bottom: 30px;
+}
+
+.ws__tasks .header {
+  padding: 18px 8px 18px 0;
+}
+
+.ws__tasks .header span {
+  margin-right: 10px;
+}
+
+.ws__tasks .header span a {
+  color: #328600;
+  text-decoration: none;
+}
+
+.ws__tasks .header span a:hover {
+  color: #328600;
+}
+
+.ws__tasks .ws__tasks__inner {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.ws__tasks h4 {
+  font-weight: bold;
+  padding: 8px 20px;
+  display: inline;
+}
+
+.ws__tasks .table {
+  margin-bottom: 0;
+}
+
+.ws__tasks .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 0;
+}
+
+.ws__tasks .table td {
+  width: 10%;
+  text-align: left;
+  padding: 8px 20px;
+  vertical-align: baseline;
+}
+
+.ws__tasks .width-90 {
+  width: 90% !important;
+}
+
+.ws__tasks .table td .checkbox {
+  display: inline-block;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+.ws__tasks a {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000;
+}
+
+.ws__tasks p.notes {
+  display: inline;
+  font-size: 12px;
+  color: #666666;
+}
+
+.ws__tasks a.more {
+  text-decoration: underline;
+  color: #000;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+.ws__tasks a:hover.more {
+  text-decoration: underline;
+  color: #000;
+}
+
+.ws__tickets {
+  margin-bottom: 30px;
+}
+
+.ws__tickets .header {
+  padding: 10px 8px 10px 0;
+}
+
+.ws__tickets .header span {
+  margin-right: 10px;
+}
+
+.ws__tickets .header span a {
+  color: #328600;
+  text-decoration: none;
+}
+
+.ws__tickets .header span a:hover {
+  color: #328600;
+}
+
+.ws__tickets .ws__tickets__inner {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.ws__tickets h4 {
+  font-weight: bold;
+  padding: 8px 20px;
+  display: inline;
+}
+
+.ws__tickets .table {
+  margin-bottom: 0;
+}
+
+.ws__tickets .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 0;
+}
+
+.ws__tickets .table td {
+  width: 10%;
+  text-align: left;
+  padding: 8px 20px;
+  vertical-align: baseline;
+}
+
+.ws__tickets .table td:first-child {
+  width: 10%;
+}
+
+.ws__tickets .width-10 {
+  width: 10% !important;
+}
+
+.ws__tickets .width-80 {
+  width: 80% !important;
+}
+
+.ws__tickets a {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #0000cd;
+}
+
+.ws__tickets p.notes {
+  display: inline;
+  font-size: 12px;
+  color: #666666;
+}
+
+.ws__tickets a.more {
+  text-decoration: underline;
+  color: #000;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+.ws__tickets a:hover.more {
+  text-decoration: underline;
+  color: #000;
+}
+
+.ws__tickets p.excerpt {
+  display: inline;
+  color: #000;
+}
+
+.ws__tickets span.comment-count a {
+  color: #ccc;
+  font-size: .9em;
+}
+
+.ws__tickets .form-control {
+  box-shadow: none;
+  background-color: transparent;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 16px 12px;
+}
+
+.ws__tickets .form-control:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+
+.tc__notify {
+  display: inline-block;
+  padding: 1px 10px;
+  min-width: 100px;
+  color: #fff;
+  font-weight: normal;
+  text-align: right;
+}
+
+.tc__notify--orrage {
+  background: #ff8c04;
+}
+
+.tc__notify--red {
+  background: #ce0404;
+}
+
+.tc__notify--green {
+  background: #328600;
+}
+
+.signup {
+  padding: 50px 0;
+}
+
+.signup__inner {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #328600;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.signup__inner .form-control {
+  border-radius: 0;
+}
+
+.signup__inner label {
+  font-weight: normal;
+}
+
+.signup__inner h2 {
+  font-weight: bold;
+  color: #328600;
+}
+
+.signup__inner p {
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /*
@@ -503,6 +762,18 @@ footer p.refer {
 @media (max-width: 767px) {
   .projects {
     padding: 0 30px;
+  }
+  .ws__tickets .col-xs-12 {
+    padding: 0 25px;
+    margin-bottom: 12px;
+  }
+  .ws__tickets h4 {
+    padding: 0;
+    margin-right: 10px;
+  }
+  .ws__tickets .col-md-4 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
   }
 }
 

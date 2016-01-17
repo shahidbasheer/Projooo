@@ -8,6 +8,27 @@
   	.projects {
 		padding: 0 30px; 
 	}
+  .ws__tickets {
+      .col-xs-12 {
+      padding: 0 25px;
+      margin-bottom: 12px;
+    }
+    
+    h4 {
+      padding: 0;
+      margin-right: 10px; 
+    }
+    .col-md-4 {
+      border-left: 1px solid #ddd; 
+      border-right: 1px solid #ddd; 
+    }
+
+  }
+
+  
+
+  
+  
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {

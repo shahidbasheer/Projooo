@@ -80,7 +80,8 @@
 		  	padding: 4px 8px; 
 		  	max-width: 100px;
 		  	color: #000;
-		  	font-weight: bold; 
+		  	font-weight: bold;
+		  	margin-left: 10px; 
 	  	}
 		  	.ws__notify--yello {
 		  		background: $yellow;
@@ -90,21 +91,142 @@
 	  		margin-bottom: 30px; 
 	  		.ws__discuss__inner {
 	  			border: 1px solid #ddd; 
-	  	   	  margin-bottom: 20px;
+	  	   	  margin-bottom: 10px;
 	  		}
 	  	  
 	  	  h4 {font-weight: bold; padding: 8px 20px; }
-	  	  
+	  	  .table { margin-bottom: 0; }
 	  	  .table>thead>tr>th { vertical-align: bottom; border-bottom: 0;}
-	  	  .table td {width: 10%; text-align: left; padding: 8px 20px;}
+	  	  .table td {width: 10%; text-align: left; padding: 8px 20px; vertical-align: baseline;}
 	  	  .width-90 {width: 90% !important;}
-	  	  .width-10 {width: 10% !important;}
 	  	  img { display: inline-block; width: 50px; height: 50px; background: #000; margin-right: 10px; }
 	  	  a {font-size: 14px; font-weight: normal; text-decoration: underline; color: #0000cd;}
 	  	  
 	  	  p.notes {display: inline; font-size: 12px; color: #666666; }
-	  	  span.date {font-size: 14px; color: #aa9c84; }
+	  	  
 	  	 
-	  	  a.more { text-decoration: underline; }
+	  	  a.more { text-decoration: underline; color: #000; font-size: .8em; font-weight: bold;   }
+	  	  a:hover.more { text-decoration: underline; color: #000; }
 
 	  	}//person-summery__notes-discuss
+
+
+
+	  	.ws__tasks {
+	  		margin-bottom: 30px;
+	  		.header {
+	  			padding: 18px 8px 18px 0;
+	  			span {margin-right: 10px; }
+	  			span a { color: #328600; text-decoration: none;  &:hover { color: #328600; } }
+	  		}
+	  		.ws__tasks__inner {
+	  			border: 1px solid #ddd; 
+	  	   	  margin-bottom: 10px;
+	  		}
+	  	  
+	  	  h4 {font-weight: bold; padding: 8px 20px; display: inline;  }
+	  	  .table { margin-bottom: 0; }
+	  	  .table>thead>tr>th { vertical-align: bottom; border-bottom: 0;}
+	  	  .table td {width: 10%; text-align: left; padding: 8px 20px; vertical-align: baseline;}
+	  	  .width-90 {width: 90% !important;}
+	  	  .table td .checkbox {
+	  	  	    display: inline-block; 
+	  	  	    margin-top: 1px;
+			    margin-bottom: 0px;
+			    vertical-align: middle;
+	  	  }
+	  	  a {font-size: 12px; font-weight: bold; text-decoration: underline; color: #000;}
+	  	  
+	  	  p.notes {display: inline; font-size: 12px; color: #666666; }
+	  	  
+	  	 
+	  	  a.more { text-decoration: underline; color: #000; font-size: .8em; font-weight: bold;   }
+	  	  a:hover.more { text-decoration: underline; color: #000; }
+
+	  	}//person-summery__notes-discuss
+
+.ws__tickets {
+	margin-bottom: 30px;
+	.header {
+		padding: 10px 8px 10px 0;
+		span {margin-right: 10px; }
+		span a { color: #328600; text-decoration: none;  &:hover { color: #328600; } }
+	}
+	.ws__tickets__inner {
+		border: 1px solid #ddd; 
+   	  margin-bottom: 10px;
+	}
+  
+  h4 {font-weight: bold; padding: 8px 20px; display: inline;  }
+  .table { margin-bottom: 0; }
+  .table>thead>tr>th { vertical-align: bottom; border-bottom: 0;}
+  .table td {width: 10%; text-align: left; padding: 8px 20px; vertical-align: baseline;}
+  .table td:first-child { width: 10%; }
+  .width-10 {width: 10% !important;}
+  .width-80 {width: 80% !important;}
+  
+  a {font-size: 12px; font-weight: bold; text-decoration: underline; color: #0000cd;}
+  
+  p.notes {display: inline; font-size: 12px; color: #666666; }
+  
+ 
+  a.more { text-decoration: underline; color: #000; font-size: .8em; font-weight: bold;   }
+  a:hover.more { text-decoration: underline; color: #000; }
+  p.excerpt {display: inline; color: #000; }
+  span.comment-count a {color: #ccc; font-size: .9em; }
+
+  .form-control {
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 16px 12px;
+}
+.form-control:focus {
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+}//person-summery__notes-discuss
+	  		.tc__notify {
+			  	display: inline-block; 
+			  	padding: 1px 10px; 
+			  	min-width: 100px;
+			  	color: #fff;
+			  	font-weight: normal;
+			  	text-align: right;
+
+			  	
+	  		}
+		  	.tc__notify--orrage {
+		  		background: #ff8c04;
+		  	}
+		  	.tc__notify--red {
+		  		background: #ce0404;
+		  	}
+		  	.tc__notify--green {
+		  		background: #328600;
+		  	}
+
+.signup {
+	padding: 50px 0; 
+}
+.signup__inner {
+
+	max-width: 500px; 
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid $green;
+	border-radius: 20px; 
+	padding: 20px 30px;
+	.form-control{ border-radius: 0; } 
+	label {font-weight: normal;  }
+	h2 {font-weight: bold; color: $green; }
+	p {font-weight: bold; margin-bottom: 20px;  }
+}
