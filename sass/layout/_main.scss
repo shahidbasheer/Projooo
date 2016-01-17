@@ -230,3 +230,47 @@
 	h2 {font-weight: bold; color: $green; }
 	p {font-weight: bold; margin-bottom: 20px;  }
 }
+
+#add_new {
+	ul {
+		    text-align: center;
+		li {
+				padding: 0; 
+				a {
+					display: inline-block;
+				min-width: 100px; 
+				min-height: 100px; 
+				padding: 20px; 
+				border: 1px solid #ddd;
+				border-right: 0;
+				i {font-size: 130px;}
+				&:hover {background: #F5F5F5; }
+				}
+
+				&:first-child a { border-top-left-radius: 10px;  border-bottom-left-radius: 10px;  &:hover {background: #F5F5F5; border-top-left-radius: 10px;  border-bottom-left-radius: 10px;  }  }
+				&:last-child  a { border-top-right-radius: 10px;  border-bottom-right-radius: 10px;  border-right: 1px solid #ddd; &:hover {background: #F5F5F5; border-top-right-radius: 10px;  border-bottom-right-radius: 10px;  }}
+				
+			}
+	}
+	
+	.modal-content {
+      border-radius: 0px;
+      outline: 0;
+      -webkit-box-shadow:none;
+       box-shadow:none;
+    }
+    .modal-body {
+    	padding: 15px 15px 30px;
+    }
+
+    .modal-header {
+        padding: 30px 15px 14px;
+     border-bottom: 0; 
+     .close {
+         margin-top: -15px;
+         font-size: 12px;
+         opacity: 0.8;
+     }
+	}
+	
+}//modal

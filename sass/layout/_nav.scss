@@ -16,7 +16,7 @@
 			&:hover, &:active { background: #028aa3;     color: #fff; }
 		}
 
-		&.active a, &.active:hover a, &.active:focus a { background: #028aa3; color: #fff;  }
+		&.active a, &.active a:hover , &.active a:focus  { background: #028aa3; color: #fff;  }
 
 		i {font-size: .8em; margin-right: 6px; }
 	}

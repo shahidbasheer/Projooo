@@ -212,7 +212,7 @@
   color: #fff;
 }
 
-.navbar-default .navbar-nav li.active a, .navbar-default .navbar-nav li.active:hover a, .navbar-default .navbar-nav li.active:focus a {
+.navbar-default .navbar-nav li.active a, .navbar-default .navbar-nav li.active a:hover, .navbar-default .navbar-nav li.active a:focus {
   background: #028aa3;
   color: #fff;
 }
@@ -704,6 +704,75 @@
 .signup__inner p {
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+#add_new ul {
+  text-align: center;
+}
+
+#add_new ul li {
+  padding: 0;
+}
+
+#add_new ul li a {
+  display: inline-block;
+  min-width: 100px;
+  min-height: 100px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-right: 0;
+}
+
+#add_new ul li a i {
+  font-size: 130px;
+}
+
+#add_new ul li a:hover {
+  background: #F5F5F5;
+}
+
+#add_new ul li:first-child a {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#add_new ul li:first-child a:hover {
+  background: #F5F5F5;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#add_new ul li:last-child a {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: 1px solid #ddd;
+}
+
+#add_new ul li:last-child a:hover {
+  background: #F5F5F5;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#add_new .modal-content {
+  border-radius: 0px;
+  outline: 0;
+  box-shadow: none;
+}
+
+#add_new .modal-body {
+  padding: 15px 15px 30px;
+}
+
+#add_new .modal-header {
+  padding: 30px 15px 14px;
+  border-bottom: 0;
+}
+
+#add_new .modal-header .close {
+  margin-top: -15px;
+  font-size: 12px;
+  opacity: 0.8;
 }
 
 /*
