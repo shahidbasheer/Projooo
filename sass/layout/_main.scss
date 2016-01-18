@@ -251,7 +251,7 @@
 					display: inline-block;
 				min-width: 100px; 
 				min-height: 100px; 
-				padding: 20px; 
+				padding: 28px; 
 				border: 1px solid #ddd;
 				border-right: 0;
 				i {font-size: 130px;}
@@ -285,3 +285,66 @@
 	}
 	
 }//modal
+
+.invite-member-modal {
+	&.modal-dialog {
+    width: 700px; 
+	}
+	.modal-content {
+	    
+	    padding: 0 12px;
+	}
+	.invite-team-members {
+		border: 1px solid #ddd; 
+		border-radius: 6px; 
+		padding: 20px;
+
+		.form-control {border-radius: 0; }
+		label {margin-bottom: 10px; }
+		.btn {margin-top: 30px !important;}
+
+	}
+	.checkbox {
+	    display: inline-block;
+	    margin-right: 6px; 
+	  }
+
+	 .team-m-workspace {
+	 	background: #eee; 
+	 	padding: 2px 20px;
+	 	margin-left: -20px;
+	 	margin-right: -20px;
+	 	margin-bottom: 20px; 
+	 	h4 { font-size: 14px; font-weight: bold; }
+	 }
+
+    
+}
+
+		#add_new .invite-member-modal .modal-header {
+    	padding: 30px 15px 0px;
+	    border-bottom: 0;
+	}
+
+#add_new_workspace {
+	.modal-dialog {
+		position: absolute;
+		right: 0;
+
+	}
+	.modal-content {
+      border-radius: 0px;
+      outline: 0;
+      -webkit-box-shadow:none;
+       box-shadow:none;
+    }
+    .modal-header {
+        padding: 30px 15px 14px;
+     border-bottom: 0; 
+	     .close {
+	         margin-top: -15px;
+	         font-size: 12px;
+	         opacity: 0.8;
+	     }
+	}
+}

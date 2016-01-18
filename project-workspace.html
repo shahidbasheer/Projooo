@@ -45,7 +45,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#"><i class="glyphicon glyphicon-plus"></i>Add New</a></li>
+                <li class="active"><a href="#" data-toggle="modal" data-target="#add_new"><i class="glyphicon glyphicon-plus"></i>Add New</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Task</a></li>
                 <li><a href="#">Bugs</a></li>
@@ -324,6 +324,85 @@
 
 			<a href="#" class="back-to-top">Back to top</a>
 
+			<!-- Modal -->
+			<div class="modal fade" id="add_new" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog invite-member-modal" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Close Window</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Create New</h4>
+			      </div>
+			      <div class="modal-body">
+			        <div class="row">
+			        	<div class="col-sm-12">
+			        		<div class="invite-team-members">
+			        			<div class="row">
+			        				<div class="col-sm-8">
+			        					<div class="form-group">
+			        					   <label for="exampleInputEmail1">Email address</label>
+			        					   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			        					 </div>
+			        				</div>
+			        				<div class="col-sm-4">
+			        					<div class="form-group">
+
+			        						<a href="#" class="btn btn-default m-t-20">Invite Members</a>
+			        					 </div>
+			        				</div>
+			        			</div> <!-- row -->
+			        			<div class="row">
+			        				<div class="col-sm-12">
+			        					
+			        					<div class="checkbox">
+			        					  <label>
+			        					    <input type="checkbox" value="">
+			        					   Can Create Task / To Do List
+			        					  </label>
+			        					</div>
+
+			        					<div class="checkbox">
+			        					  <label>
+			        					    <input type="checkbox" value="">
+			        					    Can Create Support / Bug Ticket
+			        					  </label>
+			        					</div>
+
+			        					<div class="checkbox">
+			        					  <label>
+			        					    <input type="checkbox" value="">
+			        					   Wiki Editor
+			        					  </label>
+			        					</div>
+
+			        				</div>
+			        			</div>
+
+			        			<div class="row">
+			        				<div class="col-sm-12">
+			        					<div class="team-m-workspace">
+			        						<h4>Members in Workspace</h4>
+			        					</div>
+			        				</div>
+			        			</div>
+			        			<div class="row">
+			        				<div class="col-sm-12">
+			        					<a href="" class="avatar">a</a>
+			        					<a href="" class="avatar">a</a>
+			        					<a href="" class="avatar">a</a>
+			        					<a href="" class="avatar">a</a>
+			        					
+			        				</div>
+			        			</div>
+			        		</div>
+			        	</div>
+			        </div>
+			      </div>
+			      
+			    </div>
+			  </div>
+			</div>
+		<!-- Without Border -->
+
 		</div> <!-- container -->
 
 		<footer>
@@ -349,6 +428,7 @@
              <!-- /wrap -->
             <script src="js/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
+            <script src="js/bootstrap-wysiwyg.js"></script>
            <script src="js/main.js"></script>
          
            
