@@ -20,7 +20,8 @@ var gulp = require('gulp'),
 	path             = require('path'),
 	rename           = require('gulp-rename'),
 	minifycss        = require('gulp-minify-css'),
-	changedInPlace = require('gulp-changed-in-place')
+	changedInPlace = require('gulp-changed-in-place'),
+	sourcemaps = require('gulp-sourcemaps')
 
 	;
 	
@@ -126,14 +127,17 @@ var gulp = require('gulp'),
 		      sass: sassFolder
 	      
 	 	}))
-
 	 	.pipe(autoprefixer('last 2 version', 'safari 5', 'ie 7', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
-	 	.pipe(gulp.dest( tmpassets ))
+	 	.pipe(gulp.dest( compassDest ))
 	 	.pipe(rename({ suffix: '.min' }))
 	  	.pipe(minifycss())
 	  	.pipe(gulp.dest( compassDest ))
 	  	.pipe(reload({stream:true}))
-	  	;
+	  	.pipe(notify({
+	      message: 'Styles task complete'
+	    }))
+	    ;
+	  	
 	});
 	//.pipe(browserSync.stream({match: '**/*.css'}));
 
@@ -159,8 +163,10 @@ var gulp = require('gulp'),
 	gulp.task('sass', function () {
 	  gulp.src( sassSource )
 	  	.pipe(plumber(plumberErrorHandler))
+	  	.pipe(sourcemaps.init())
 	    .pipe(sass({outputStyle: 'expanded'}))
 	    .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 7', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
+	    .pipe(sourcemaps.write())
 	    .pipe(gulp.dest( sassDest ))
 	   	.pipe(reload({stream:true}))
 	    .pipe(notify({

@@ -135,9 +135,11 @@
 			        <div class="row">
 			        	<div class="col-sm-12">
 			        		<ul class="list-inline">
-			        			<li><a href=""  data-toggle="modal" data-target="#add_new_workspace"><i class="glyphicon glyphicon-heart"></i></a></li><li>
-			        				<a href=""><i class="glyphicon glyphicon-heart"></i></a></li><li>
-			        				<a href=""><i class="glyphicon glyphicon-heart"></i></a></li>
+			        			<li><a href=""  data-toggle="modal" data-target="#add_new_workspace"><i class="fa  fa-inbox"></i>
+								<span>Project</span>
+			        			</a></li><li>
+			        				<a href=""><i class="fa  fa-bug"></i><span>Bugs / Supports</span></a></li><li>
+			        				<a href=""><i class="fa fa-calendar-check-o "></i><span>To Do / Task</span></a></li>
 			        		</ul>
 			        	</div>
 			        </div>
@@ -154,13 +156,47 @@
 			    <div class="modal-content">
 			      <div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Close Window</span></button>
-			        <h4 class="modal-title" id="myModalLabel">CreateNew</h4>
+			        <h4 class="modal-title" id="myModalLabel">Create a new project workdspace</h4>
 			      </div>
 			      <div class="modal-body">
 			        <div class="row">
 			        	<div class="col-sm-12">
+			        		
+			        		<div class="form-group no-top-border">
+			        			<input type="text" class="form-control" placeholder="Enter the Project name here">
+			        		</div>
 			        		<div id="txtEditor">
 			        			4165
+			        		</div>
+			        		
+							<div class="seprater-bottom-30"></div>
+
+			        		<div class="form-group">
+			        		   <i class="glyphicon glyphicon-paperclip"></i>
+								<span class="upload">Upload Files:</span>
+								<span class="notify" style="vertical-align: text-top;"></span>
+			        		   <input type="file" id="exampleInputFile" class="file" placeholder="Enter Name">
+			        		   
+			        		 </div>
+			        		
+							
+							<div class="form-group">
+								<i class="glyphicon glyphicon-envelope" style="vertical-align: text-bottom;"></i>
+								<span class="notify" style="vertical-align: text-top;">Notify:</span>
+     							<input type="text" class="form-control" placeholder="Enter Name">
+							</div>
+			        		
+
+			        		<a href="#" class="btn btn-success">Create discussion</a>
+			        		<a href="#" class="btn btn-default">Cancle</a>
+
+			        	</div>
+			        	<div class="row">
+			        		
+			        	</div>
+			        	<div class="row">
+			        		<div class="col-sm-12">
+			        			
 			        		</div>
 			        	</div>
 			        </div>

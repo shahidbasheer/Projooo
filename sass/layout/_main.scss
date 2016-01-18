@@ -99,7 +99,7 @@
 	  	  .table>thead>tr>th { vertical-align: bottom; border-bottom: 0;}
 	  	  .table td {width: 10%; text-align: left; padding: 8px 20px; vertical-align: baseline;}
 	  	  .width-90 {width: 90% !important;}
-	  	  img { display: inline-block; width: 50px; height: 50px; background: #000; margin-right: 10px; }
+	  	  img { display: inline-block; width: 50px; height: 50px;  margin-right: 10px; }
 	  	  a {font-size: 14px; font-weight: normal; text-decoration: underline; color: #0000cd;}
 	  	  
 	  	  p.notes {display: inline; font-size: 12px; color: #666666; }
@@ -146,11 +146,18 @@
 	  	}//person-summery__notes-discuss
 
 .ws__tickets {
-	margin-bottom: 30px;
+	margin-bottom: 100px;
 	.header {
-		padding: 10px 8px 10px 0;
+		padding: 0px 8px 0px 16px;
 		span {margin-right: 10px; }
 		span a { color: #328600; text-decoration: none;  &:hover { color: #328600; } }
+		.width24 {width: 30%; display: inline-block; border-right: 1px solid #ddd; padding: 20px 0;}
+		.width40 {width: 40%; display: inline-block; padding: 20px 0; padding-left: 20px; border-right: 1px solid #ddd;}
+		.width28 {width: 28%; display: inline-block; padding: 18px 0 0 50px;
+					position: relative;
+			i { position: absolute; left: 20px; top: 20px; font-size: 18px; color: #808080; }
+		}
+		.form-control {margin-bottom: 0; padding: 0;  }
 	}
 	.ws__tickets__inner {
 		border: 1px solid #ddd; 
@@ -163,7 +170,7 @@
   .table td {width: 10%; text-align: left; padding: 8px 20px; vertical-align: baseline;}
   .table td:first-child { width: 10%; }
   .width-10 {width: 10% !important;}
-  .width-80 {width: 80% !important;}
+  .width-80 {width: 80% !important; }
   
   a {font-size: 12px; font-weight: bold; text-decoration: underline; color: #0000cd;}
   
@@ -172,8 +179,13 @@
  
   a.more { text-decoration: underline; color: #000; font-size: .8em; font-weight: bold;   }
   a:hover.more { text-decoration: underline; color: #000; }
-  p.excerpt {display: inline; color: #000; }
+  p.excerpt { /* display: inline; */ color: #000; margin-bottom: 4px;  }
   span.comment-count a {color: #ccc; font-size: .9em; }
+  span.auther a {  font-size: .9em; color: #000; margin-right: 10px; text-decoration: none;  font-weight: normal;  }
+  span.critical a {color: #e90000; &:hover { color: #e90000; } }
+  span.urgent a {color: $orange; &:hover { color:$orange; }}
+  span.open a {color: $green;  &:hover { color: $green; }}
+  span.closed  a {color: #8a8a8a; &:hover { color: #8a8a8a; } }
 
   .form-control {
     box-shadow: none;
@@ -181,12 +193,12 @@
     border-radius: 0;
     background: transparent;
     box-shadow: none;
-    border: 1px solid #ccc;
+    border: 0;
     text-align: left;
     width: 100%;
     display: inline-block;
     vertical-align: bottom;
-    padding: 16px 12px;
+    padding: 8px 12px;
 }
 .form-control:focus {
     border-color: #ccc;
@@ -201,6 +213,7 @@
 			  	color: #fff;
 			  	font-weight: normal;
 			  	text-align: right;
+			  	    vertical-align: -webkit-baseline-middle;
 
 			  	
 	  		}
@@ -248,14 +261,17 @@
 		li {
 				padding: 0; 
 				a {
+					position: relative; 
+					color: #666666; 
 					display: inline-block;
 				min-width: 100px; 
 				min-height: 100px; 
-				padding: 28px; 
+				padding:34px 30px;
 				border: 1px solid #ddd;
 				border-right: 0;
 				i {font-size: 130px;}
 				&:hover {background: #F5F5F5; }
+				span {position: absolute; bottom: 10px;  right: 22%; left: 22%; }
 				}
 
 				&:first-child a { border-top-left-radius: 10px;  border-bottom-left-radius: 10px;  &:hover {background: #F5F5F5; border-top-left-radius: 10px;  border-bottom-left-radius: 10px;  }  }
@@ -300,8 +316,27 @@
 		padding: 20px;
 
 		.form-control {border-radius: 0; }
-		label {margin-bottom: 10px; }
+		label {margin-bottom: 10px; color: #585858;  }
 		.btn {margin-top: 30px !important;}
+		a.avatar {width: 50px; height: 50px; display: inline-block;  }
+
+		::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+		    color:    #585858;
+		}
+		:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		   color:    #585858;
+		   opacity:  1;
+		}
+		::-moz-placeholder { /* Mozilla Firefox 19+ */
+		   color:    #585858;
+		   opacity:  1;
+		}
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		   color:    #585858;
+		}
+		:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+		  color:    #585858;
+		}
 
 	}
 	.checkbox {
@@ -316,6 +351,7 @@
 	 	margin-right: -20px;
 	 	margin-bottom: 20px; 
 	 	h4 { font-size: 14px; font-weight: bold; }
+	 	border-top: 1px solid #dfdfdf; 
 	 }
 
     
@@ -327,6 +363,8 @@
 	}
 
 #add_new_workspace {
+
+	h4 { font-size: 14px; font-weight: bold; }
 	.modal-dialog {
 		position: absolute;
 		right: 0;
@@ -347,4 +385,76 @@
 	         opacity: 0.8;
 	     }
 	}
-}
+	input {width: 60%; display: inline-block; }
+	input.file { width: 40%; }
+	.form-control {
+	    box-shadow: none;
+	    background-color: transparent;
+	    border-radius: 0;
+	    background: transparent;
+	    box-shadow: none;
+	    border: 0;
+	    text-align: left;
+	    display: inline-block;
+	    vertical-align: bottom;
+	    padding: 2px 12px;
+	    margin-bottom: 0;
+	}
+	.form-control:focus {
+	    border-color: #ccc;
+	    box-shadow: none;
+	}
+	.form-group {
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+	}
+
+	::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	    color:    #b8b8b8;
+	    font-size: 1em; 
+
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    #b8b8b8;
+	   font-size: 1em; 
+	   opacity:  1;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   color:    #b8b8b8;
+	   font-size: 1em; 
+	   opacity:  1;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	   color:    #b8b8b8;
+	   font-size: 1em; 
+	}
+	:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+	  color:    #b8b8b8;
+	  font-size: 1em; 
+	}
+	.no-top-border {
+		border-top: 0 !important; 
+	}
+	span.upload { 
+		color: #0095ff;
+		
+	}
+	span.nofity {
+		color: #2b587b; 
+	}
+	
+	span.nofity, span.upload {
+		margin-right: 4px;
+		margin-left: 4px;
+		font-size: 14px; 
+	}
+	
+	i {color: #2b587b; }
+	
+}// end 
+
+
+
+ #editor {overflow:scroll; max-height:300px}
