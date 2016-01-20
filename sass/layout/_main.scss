@@ -383,6 +383,10 @@
 
 #add_new_workspace {
 
+		.modal {
+	    	overflow-y: hidden;
+		}
+
 	h4 { font-size: 24px; font-weight: normal; color: #585858;  }
 	.modal-dialog {
 		position: absolute;
@@ -471,6 +475,13 @@
 	}
 	
 	i {color: #2b587b; }
+
+	.modal.fade .modal-dialog {
+	   -webkit-transform: translate(6em,0);
+	  -moz-transform: translate(6em,0);
+	  -o-transform: translate(6em,0);
+	  -ms-transform: translate(6em,0);
+	}
 	
 }// end 
 
@@ -497,3 +508,5 @@
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
 }
+
+
