@@ -35,12 +35,13 @@
 	  	.ps__notify {
 		  	position: absolute; 
 		  	right: -10px; 
-		  	top: 20px; 
+		  	top: 12px; 
 		  	display: block; 
 		  	padding: 4px 8px; 
 		  	max-width: 100px;
 		  	color: #000;
 		  	font-weight: bold; 
+		  	font-size: 12px;
 	  	}
 	  	.ps__notify--yello {
 	  		background: $yellow;
@@ -53,7 +54,7 @@
 		border-bottom: 1px solid #ddd; 
 		margin-bottom: 5px; 
 		h3 {display: inline-block; }	
-		p {padding: 10px; }
+		p {padding:24px  10px; }
 	}
 	.panel-default {
 		margin-bottom: 40px; 
@@ -62,7 +63,7 @@
 		ul {
 			text-align: center; 
 			margin-bottom: 0;
-			li a {color: #0000cd; text-decoration: underline;  }
+			li a {color: #0000cd; text-decoration: underline; font-weight: bold;   }
 			
 		}
 		.panel-body {
@@ -77,30 +78,31 @@
 
 		.ws__notify {
 		  	display: inline-block; 
-		  	padding: 4px 8px; 
+		  	padding: 2px 8px; 
 		  	max-width: 100px;
 		  	color: #000;
 		  	font-weight: bold;
 		  	margin-left: 10px; 
+		  	font-size: 12px; 
 	  	}
 		  	.ws__notify--yello {
 		  		background: $yellow;
 		  	}
 
 	  	.ws__discuss {
-	  		margin-bottom: 30px; 
+	  		margin-bottom: 50px; 
 	  		.ws__discuss__inner {
 	  			border: 1px solid #ddd; 
-	  	   	  margin-bottom: 10px;
+	  	   	  margin-bottom: 20px;
 	  		}
 	  	  
-	  	  h4 {font-weight: bold; padding: 8px 20px; }
+	  	  h4 {font-weight: bold; padding: 4px 20px; }
 	  	  .table { margin-bottom: 0; }
 	  	  .table>thead>tr>th { vertical-align: bottom; border-bottom: 0;}
-	  	  .table td {width: 10%; text-align: left; padding: 8px 20px; vertical-align: baseline;}
+	  	  .table td {width: 1%; text-align: left; padding: 8px 20px; vertical-align: baseline;}
 	  	  .width-90 {width: 90% !important;}
-	  	  img { display: inline-block; width: 50px; height: 50px;  margin-right: 10px; }
-	  	  a {font-size: 14px; font-weight: normal; text-decoration: underline; color: #0000cd;}
+	  	  img { display: inline-block; width: 40px; height: 40px;  margin-right: 10px; }
+	  	  a {font-size: 14px; font-weight: bold; text-decoration: underline; color: #0000cd;}
 	  	  
 	  	  p.notes {display: inline; font-size: 12px; color: #666666; }
 	  	  
@@ -113,18 +115,18 @@
 
 
 	  	.ws__tasks {
-	  		margin-bottom: 30px;
+	  		margin-bottom: 50px;
 	  		.header {
-	  			padding: 18px 8px 18px 0;
-	  			span {margin-right: 10px; }
-	  			span a { color: #328600; text-decoration: none;  &:hover { color: #328600; } }
+	  			padding: 14px 8px 14px 0;
+	  			span {margin-right: 10px; font-weight: bold; }
+	  			span a { color: #328600; text-decoration: none;  &:hover { color: #328600; }  font-weight: bold;}
 	  		}
 	  		.ws__tasks__inner {
 	  			border: 1px solid #ddd; 
-	  	   	  margin-bottom: 10px;
+	  	   	  margin-bottom: 20px;
 	  		}
 	  	  
-	  	  h4 {font-weight: bold; padding: 8px 20px; display: inline;  }
+	  	  h4 {font-weight: bold; padding: 4px 20px; display: inline;  }
 	  	  .table { margin-bottom: 0; }
 	  	  .table>thead>tr>th { vertical-align: bottom; border-bottom: 0;}
 	  	  .table td {width: 10%; text-align: left; padding: 8px 20px; vertical-align: baseline;}
@@ -149,19 +151,19 @@
 	margin-bottom: 100px;
 	.header {
 		padding: 0px 8px 0px 16px;
-		span {margin-right: 10px; }
-		span a { color: #328600; text-decoration: none;  &:hover { color: #328600; } }
-		.width24 {width: 30%; display: inline-block; border-right: 1px solid #ddd; padding: 20px 0;}
-		.width40 {width: 40%; display: inline-block; padding: 20px 0; padding-left: 20px; border-right: 1px solid #ddd;}
-		.width28 {width: 28%; display: inline-block; padding: 18px 0 0 50px;
+		span {margin-right: 10px; font-weight: bold;}
+		span a { color: #328600; text-decoration: none;  &:hover { color: #328600; } font-weight: bold;}
+		.width24 {width: 30%; display: inline-block; border-right: 1px solid #ddd; padding: 14px 0;}
+		.width40 {width: 40%; display: inline-block; padding: 14px 0; padding-left: 20px; border-right: 1px solid #ddd;}
+		.width28 {width: 28%; display: inline-block; padding: 14px 0 0 50px;
 					position: relative;
-			i { position: absolute; left: 20px; top: 20px; font-size: 18px; color: #808080; }
+			i { position: absolute; left: 20px; top: 16px; font-size: 18px; color: #808080; }
 		}
 		.form-control {margin-bottom: 0; padding: 0;  }
 	}
 	.ws__tickets__inner {
 		border: 1px solid #ddd; 
-   	  margin-bottom: 10px;
+   	  margin-bottom: 20px;
 	}
   
   h4 {font-weight: bold; padding: 8px 20px; display: inline;  }
@@ -170,6 +172,7 @@
   .table td {width: 10%; text-align: left; padding: 8px 20px; vertical-align: baseline;}
   .table td:first-child { width: 10%; }
   .width-10 {width: 10% !important;}
+  .width-6 {width: 6% !important;}
   .width-80 {width: 80% !important; }
   
   a {font-size: 12px; font-weight: bold; text-decoration: underline; color: #0000cd;}
@@ -182,10 +185,10 @@
   p.excerpt { /* display: inline; */ color: #000; margin-bottom: 4px;  }
   span.comment-count a {color: #ccc; font-size: .9em; }
   span.auther a {  font-size: .9em; color: #000; margin-right: 10px; text-decoration: none;  font-weight: normal;  }
-  span.critical a {color: #e90000; &:hover { color: #e90000; } }
-  span.urgent a {color: $orange; &:hover { color:$orange; }}
-  span.open a {color: $green;  &:hover { color: $green; }}
-  span.closed  a {color: #8a8a8a; &:hover { color: #8a8a8a; } }
+  span.critical a {color: #e90000; &:hover { color: #e90000; } font-size: 14px; }
+  span.urgent a {color: $orange; &:hover { color:$orange; } font-size: 14px; }
+  span.open a {color: $green;  &:hover { color: $green; } font-size: 14px;  }
+  span.closed  a {color: #8a8a8a; &:hover { color: #8a8a8a; }  font-size: 14px;  }
 
   .form-control {
     box-shadow: none;
@@ -269,9 +272,10 @@
 				padding:34px 30px;
 				border: 1px solid #ddd;
 				border-right: 0;
-				i {font-size: 130px;}
+				i {font-size: 100px;}
 				&:hover {background: #F5F5F5; }
-				span {position: absolute; bottom: 10px;  right: 22%; left: 22%; }
+				span {position: absolute; bottom: 10px;  right: 22%; left: 22%;     margin-left: -10px;
+    					margin-right: -10px; }
 				}
 
 				&:first-child a { border-top-left-radius: 10px;  border-bottom-left-radius: 10px;  &:hover {background: #F5F5F5; border-top-left-radius: 10px;  border-bottom-left-radius: 10px;  }  }
@@ -292,7 +296,9 @@
 
     .modal-header {
         padding: 30px 15px 14px;
+            padding-left: 30px;
      border-bottom: 0; 
+     h4 {color: #585858; font-size: 24px; }
      .close {
          margin-top: -15px;
          font-size: 12px;
@@ -301,6 +307,19 @@
 	}
 	
 }//modal
+
+#add_new_teammember {
+	.modal-header {
+        padding: 30px 15px 14px;
+     border-bottom: 0; 
+     h4 {color: #585858; font-size: 24px; }
+     .close {
+         margin-top: -15px;
+         font-size: 12px;
+         opacity: 0.8;
+     }
+	}
+}
 
 .invite-member-modal {
 	&.modal-dialog {
@@ -364,7 +383,7 @@
 
 #add_new_workspace {
 
-	h4 { font-size: 14px; font-weight: bold; }
+	h4 { font-size: 24px; font-weight: normal; color: #585858;  }
 	.modal-dialog {
 		position: absolute;
 		right: 0;
@@ -458,3 +477,23 @@
 
 
  #editor {overflow:scroll; max-height:300px}
+
+ .modal {
+    /*! adjust transition time */
+    -webkit-transition: all ease-out !important;
+    -moz-transition: all 0.3s ease-out !important;
+    -o-transition: all 0.3s ease-out !important;
+    transition: all 0.3s ease-out !important;
+}
+.modal.in .modal-dialog {
+    /*! editthis transform to any transform you want */
+    -webkit-transform: scale(1, 1) !important;
+    -ms-transform: scale(1, 1) !important;
+    transform: scale(1, 1) !important;
+}
+.modal.fade .modal-dialog {
+    /*! disable sliding from left/right/top/bottom */
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
