@@ -566,3 +566,21 @@
     filter: none;
     filter: none;
 }
+
+
+.select-business {
+	 
+	.select-busi__block {
+		display: inline-block;
+		margin-right: 20px;
+		float: left;
+		padding:10px 30px; 
+		border: 1px solid #ddd;
+		h4 {margin:0 ;}
+		p {color: #000; font-size: 12px; }
+		p.active {color: #051848; }
+		
+
+	}
+}
+
