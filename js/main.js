@@ -14,8 +14,18 @@ $('#tags').tagsInput( {
 		$('#add_new').modal('hide');
 		$('#add_new_workspace').modal('show');
 	});
-	
-	
+	// hack modal window and fix body paddign
+	$("#add_new_workspace .close").on("click", function(){
+		$("#add_new_workspace").toggleClass("in");
+		setTimeout(function(){ 
+			$('#add_new_workspace').modal('hide');
+			
+			$('body').css({
+			'padding-right': '0',
+			});
+	 	}, 1001);
+
+	});
 	
 });//on laod
 

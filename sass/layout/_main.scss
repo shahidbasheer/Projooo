@@ -384,8 +384,9 @@
 
 #add_new_workspace {
 
-		.modal {
-	    	overflow-y: hidden;
+		&.modal {
+	    	overflow-y: hidden !important;
+
 		}
 
 	h4 { font-size: 24px; font-weight: normal; color: #585858;  }
@@ -477,37 +478,40 @@
 	
 	i {color: #2b587b; }
 
-	.modal.fade .modal-dialog {
-	   -webkit-transform: translate(6em,0);
-	  -moz-transform: translate(6em,0);
-	  -o-transform: translate(6em,0);
-	  -ms-transform: translate(6em,0);
-	}
+	
+	
 	
 }// end 
 
 
 
- #editor {overflow:scroll; max-height:300px}
+ #editor {overflow:hidden; max-height:300px}
 
- .modal {
-    /*! adjust transition time */
-    -webkit-transition: all ease-out !important;
-    -moz-transition: all 0.3s ease-out !important;
-    -o-transition: all 0.3s ease-out !important;
-    transition: all 0.3s ease-out !important;
-}
-.modal.in .modal-dialog {
-    /*! editthis transform to any transform you want */
-    -webkit-transform: scale(1, 1) !important;
-    -ms-transform: scale(1, 1) !important;
-    transform: scale(1, 1) !important;
-}
-.modal.fade .modal-dialog {
-    /*! disable sliding from left/right/top/bottom */
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0);
-}
+ 
 
+ .modal.sidein .modal-dialog {
 
+	-webkit-transition: -webkit-transform 1s ease-out;
+       -o-transition:      -o-transform 1s ease-out;
+          transition:         transform 1s ease-out;
+
+	  -webkit-transform: translateX(100%);
+	  
+	  -moz-transform: translateX(100%);
+	  
+	  -ms-transform: translateX(100%);
+	  
+	  transform: translateX(100%);
+
+	}
+
+	.modal.sidein.in .modal-dialog {
+		-webkit-transition: -webkit-transform 1s ease-in;
+       -o-transition:      -o-transform 1s ease-in;
+          transition:         transform 1s ease-in;
+
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+       -o-transform: translateX(0);
+          transform: translateX(0);
+}
