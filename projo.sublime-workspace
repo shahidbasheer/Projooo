@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
 				"con",
 				"console"
 			],
@@ -46,10 +58,6 @@
 			[
 				"margin",
 				"margin-right"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"m-t",
@@ -130,10 +138,6 @@
 			[
 				"c",
 				"class"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"html",
@@ -510,10 +514,6 @@
 			[
 				"hidde",
 				"hidden-xs"
-			],
-			[
-				"borderc",
-				"border-color"
 			]
 		]
 	},
@@ -526,14 +526,6 @@
 				"buffer_size": 320,
 				"line_ending": "Windows",
 				"name": "haircare.drgvg.co.in"
-			}
-		},
-		{
-			"file": "html/project-workspace.html",
-			"settings":
-			{
-				"buffer_size": 15122,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -661,7 +653,15 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/dashboard.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/project-workspace.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/main.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/static-site-genrate-spl-itrator/composer.json",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/.sass-cache/75c3430ad22772e714149cf89aa666af0e233e14/_nav.scssc",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/dashboard.html",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/functions.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/footer-landing-page.php",
@@ -680,12 +680,8 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/gulpfile.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/config.rb",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/dashboard.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/project-workspace.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/header.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/footer.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/main.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/_components.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
 		"/E/Templates/html-templates/components/snippets/fonts/ie.css",
@@ -709,9 +705,7 @@
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/style.css",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg/style.css",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/signup.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav.html",
 		"/E/Templates/html-templates/components/snippets/modals window/Without Border.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_variables.scss",
 		"/F/My Documents/Downloads/chrome Download/wp-config.php",
 		"/E/Templates/html-templates/components/snippets/forms/signup.html",
@@ -786,9 +780,7 @@
 		"/C/xampp/htdocs/urdu-stemmer/app/Http/Middleware/VerifyCsrfToken.php",
 		"/C/xampp/htdocs/urdu-stemmer/app/Http/Middleware/RedirectIfAuthenticated.php",
 		"/C/xampp/htdocs/urdu-stemmer/app/Http/Middleware/Authenticate.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Kernel.php",
-		"/C/xampp/htdocs/urdu-stemmer/public/css/app.css",
-		"/E/Templates/html-templates/components/snippets/tabs/tabs.html"
+		"/C/xampp/htdocs/urdu-stemmer/app/Http/Kernel.php"
 	],
 	"find":
 	{
@@ -807,6 +799,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"out",
+			"ease-in-out",
+			"ease-out;",
+			" ease-out;",
+			"ease-out",
+			"5s",
+			"3s",
+			"-100",
+			"translateY",
+			", 0",
+			"translate",
+			"translateX",
+			"-50",
+			"translateY(-50%)",
+			" ease-out",
+			"2s",
+			"1s",
+			"inlie-block",
+			"3em",
+			"modal",
+			"ws__tickets ",
+			"ws__notify ",
+			"#add_new_workspace h4",
+			"add_new",
+			"my projects",
+			"add_new-teammember",
+			"<a href=\"\"><i class=\"gl",
+			".ps__notify",
+			"add_new ",
+			".ws__notify",
+			".workspace ",
+			"workspace \n",
+			"ws__tasks ",
+			"h4 {font-weight: ",
+			"ws__discuss ",
+			"ws__discuss__inner",
+			"ws__tickets__inner ",
+			".ws__tasks__inner",
+			"ws__tasks",
+			".ws__discuss",
+			"ws__tickets ",
+			"ws__tasks ",
+			"ws__discuss ",
 			"jQuery",
 			"js",
 			"h3.gform_title",
@@ -891,50 +926,7 @@
 			"div",
 			"btn-orange",
 			"20",
-			"<i",
-			"lp__blog",
-			"lp__lear-more_anchor",
-			"lp__faqs",
-			"lp__blog",
-			"before-and-after",
-			"testimonial",
-			"lear-more",
-			"h2",
-			"loan-application",
-			"loan-application-2",
-			"Loan Application",
-			".exchange-table-filter",
-			"form",
-			"filters",
-			"button",
-			"_assests",
-			"switchery",
-			"#tbl",
-			"checkbox3",
-			"myModal",
-			"h2",
-			"setup-panel",
-			"49",
-			"ginput",
-			"form-control",
-			"</option>",
-			"small",
-			"Coderthemes",
-			"#form-id",
-			"left-block",
-			"login",
-			"#form-id",
-			"login-2",
-			"col-sm-5",
-			"emailAddress",
-			"email",
-			"emailAddress",
-			"text-black",
-			"email",
-			"#form-id",
-			"left",
-			".setting-wrapper",
-			"settings-navigation"
+			"<i"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1025,7 +1017,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1039,35 +1031,8 @@
 						"selection":
 						[
 							[
-								227,
-								51
-							]
-						],
-						"settings":
-						{
-							"auto_name": "haircare.drgvg.co.in",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "html/project-workspace.html",
-					"settings":
-					{
-						"buffer_size": 15122,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								308,
+								308
 							]
 						],
 						"settings":
@@ -1089,6 +1054,7 @@
 									"selector": "text.html"
 								}
 							],
+							"auto_name": "haircare.drgvg.co.in",
 							"csslint_options":
 							{
 								"adjoining-classes": "warning",
@@ -1173,10 +1139,10 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1076.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1230,6 +1196,14 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"sass/layout/_main.scss"
+			],
+			[
+				"nav",
+				"sass/layout/_nav.scss"
+			],
+			[
 				"hel",
 				"sass/base/_helpers.scss"
 			],
@@ -1250,10 +1224,6 @@
 				"html/html_Moudles/nav.html"
 			],
 			[
-				"nav",
-				"sass/layout/_nav.scss"
-			],
-			[
 				"ar",
 				"sass/base/_variables.scss"
 			],
@@ -1268,10 +1238,6 @@
 			[
 				"var",
 				"sass/base/_variables.scss"
-			],
-			[
-				"main",
-				"sass/layout/_main.scss"
 			],
 			[
 				"sty",

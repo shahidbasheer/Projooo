@@ -54,7 +54,7 @@
 	header {
 		border-bottom: 1px solid #ddd; 
 		margin-bottom: 5px; 
-		h3 {display: inline-block; }	
+		h3 {display: inline-block; color: #585858; }	
 		p {padding:24px  10px; }
 	}
 	.panel-default {
@@ -79,12 +79,13 @@
 
 		.ws__notify {
 		  	display: inline-block; 
-		  	padding: 2px 8px; 
+		  	padding: 3px 8px; 
 		  	max-width: 100px;
 		  	color: #000;
 		  	font-weight: bold;
 		  	margin-left: 10px; 
-		  	font-size: 12px; 
+		  	font-size: 12px;
+		  	    vertical-align: super; 
 	  	}
 		  	.ws__notify--yello {
 		  		background: $yellow;
@@ -158,9 +159,28 @@
 		.width40 {width: 40%; display: inline-block; padding: 14px 0; padding-left: 20px; border-right: 1px solid #ddd;}
 		.width28 {width: 28%; display: inline-block; padding: 14px 0 0 50px;
 					position: relative;
-			i { position: absolute; left: 20px; top: 16px; font-size: 18px; color: #808080; }
+			i { position: absolute; left: 26px; top: 16px; font-size: 18px; color: #808080; }
 		}
 		.form-control {margin-bottom: 0; padding: 0;  }
+
+		::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+		    color:    #808080;
+		}
+		:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		   color:    #808080;
+		   opacity:  1;
+		}
+		::-moz-placeholder { /* Mozilla Firefox 19+ */
+		   color:    #808080;
+		   opacity:  1;
+		}
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		   color:    #808080;
+		}
+		:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+		  color:    #808080;
+		}
+
 	}
 	.ws__tickets__inner {
 		border: 1px solid #ddd; 
@@ -389,6 +409,11 @@
 
 		}
 
+		.modal-dialog {
+		    width: 700px;
+		    margin: 0 auto 30px;
+		}
+
 	h4 { font-size: 24px; font-weight: normal; color: #585858;  }
 	.modal-dialog {
 		position: absolute;
@@ -514,4 +539,9 @@
       -ms-transform: translateX(0);
        -o-transform: translateX(0);
           transform: translateX(0);
+}
+
+
+.Editor-editor {
+    height: 200px !important;  
 }

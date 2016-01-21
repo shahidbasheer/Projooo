@@ -69,11 +69,12 @@
 		     margin-left: 0px; 
 		li {padding-left: 0; &:last-child a:after { content: ""; }   }
 		li a  {
-				color: #fff; font-size: 12px; 
+				color: #fff; font-size: 10px; 
 				background: transparent;
 			    border-right: 1px solid #77bfcc;
+			    font-weight: normal; 
 			    &:hover {
-			    	color: #fff; font-size: 12px; 
+			    	color: #fff;  
 					background: transparent;
 			    	border-right: 1px solid #77bfcc;
 				}

@@ -113,7 +113,7 @@
 								<li><a href="">Tasks</a></li>
 								<li><a href="">Bugs</a></li>
 								<li><a href="">Wiki</a></li>
-								<li><a href="" data-toggle="modal" data-target="#add_new">invite Team Members</a></li>
+								<li><a href="" data-toggle="modal" data-target="#add_new_teammember">Invite Team Member</a></li>
 							</ul>
 						</div>
 					</div>
@@ -254,7 +254,7 @@
 	                     	 			
 	                     	 	</div>
 	                     	 	<div class="width28">
-	                     	 		<input type="text" class="form-control" placeholder="">
+	                     	 		<input type="text" class="form-control" placeholder="Search Ticket...">
 	                     	 		<i class="glyphicon glyphicon-search"></i>
 	                     	 	</div>
 
@@ -374,7 +374,7 @@
 
 			<!-- Modal -->
 			<div class="modal sidein" id="add_new_workspace" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-			  <div class="modal-dialog add_new_workspace" role="document" style=" width: 900px;">
+			  <div class="modal-dialog add_new_workspace" role="document" style=" width: 700px;">
 			    <div class="modal-content">
 			      <div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Close Window</span></button>
@@ -419,6 +419,85 @@
 			        	<div class="row">
 			        		<div class="col-sm-12">
 			        			
+			        		</div>
+			        	</div>
+			        </div>
+			      </div>
+			      
+			    </div>
+			  </div>
+			</div>
+		<!-- Without Border -->
+
+		<!-- Modal -->
+			<div class="modal fade" id="add_new_teammember" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog invite-member-modal" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Close Window</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Create New</h4>
+			      </div>
+			      <div class="modal-body">
+			        <div class="row">
+			        	<div class="col-sm-12">
+			        		<div class="invite-team-members">
+			        			<div class="row">
+			        				<div class="col-sm-8">
+			        					<div class="form-group">
+			        					   <label for="exampleInputEmail1">Team Member</label>
+			        					   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Invite Team member with Email Address">
+			        					 </div>
+			        				</div>
+			        				<div class="col-sm-4">
+			        					<div class="form-group">
+
+			        						<a href="#" class="btn btn-success m-t-20">Invite Members</a>
+			        					 </div>
+			        				</div>
+			        			</div> <!-- row -->
+			        			<div class="row">
+			        				<div class="col-sm-12">
+			        					
+			        					<div class="checkbox">
+			        					  <label>
+			        					    <input type="checkbox" value="">
+			        					   Can Create Task / To Do List
+			        					  </label>
+			        					</div>
+
+			        					<div class="checkbox">
+			        					  <label>
+			        					    <input type="checkbox" value="">
+			        					    Can Create Support / Bug Ticket
+			        					  </label>
+			        					</div>
+
+			        					<div class="checkbox">
+			        					  <label>
+			        					    <input type="checkbox" value="">
+			        					   Wiki Editor
+			        					  </label>
+			        					</div>
+
+			        				</div>
+			        			</div>
+
+			        			<div class="row">
+			        				<div class="col-sm-12">
+			        					<div class="team-m-workspace">
+			        						<h4>Members in Workspace</h4>
+			        					</div>
+			        				</div>
+			        			</div>
+			        			<div class="row">
+			        				<div class="col-sm-12">
+			        					<a href="" class="avatar"><img src="img/avatar.png"></a>
+			        					<a href="" class="avatar"><img src="img/avatar.png"></a>
+			        					<a href="" class="avatar"><img src="img/avatar.png"></a>
+			        					<a href="" class="avatar"><img src="img/avatar.png"></a>
+			        					
+			        				</div>
+			        			</div>
 			        		</div>
 			        	</div>
 			        </div>
