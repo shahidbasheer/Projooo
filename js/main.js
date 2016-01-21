@@ -23,7 +23,6 @@ $('#tags').tagsInput( {
 			$('body').css({
 			'padding-right': '0',
 			});
-			
 	 	}, 1001);
 
 	});
