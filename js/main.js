@@ -26,9 +26,25 @@ $('#tags').tagsInput( {
 	 	}, 1001);
 
 	});
+
+	$("#add_new_workspace .cancel").on("click", function(){
+		$("#add_new_workspace").removeClass("in");
+		setTimeout(function(){ 
+			$('#add_new_workspace').modal('hide');
+			
+			$('body').css({
+			'padding-right': '0',
+			});
+	 	}, 1001);
+
+	});
+
+
 	
 });//on laod
 
 
-  
+  function goToworkspace () {
+		window.location.href="project-workspace.html";
+	}
 

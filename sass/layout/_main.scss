@@ -23,8 +23,8 @@
 	float: left; 
 	margin-right: 40px; 
 	cursor: pointer; 
-	.bug{color: $red; font-weight: bold;  }	
-	.tasks {color: #000; margin-bottom: 80px;  font-weight: bold;  }
+	.bug{color: $red; font-weight: bold;  font-size: 12px;  }	
+	.tasks {color: #000; margin-bottom: 80px;  font-weight: bold; font-size: 12px; }
 	  
 }//end 
 		.ps_heading h4 {margin-bottom: 40px; font-weight: bold; color: #000; }
@@ -321,7 +321,7 @@
      border-bottom: 0; 
      h4 {color: #585858; font-size: 24px; }
      .close {
-         margin-top: -15px;
+         margin-top: 10px;
          font-size: 12px;
          opacity: 0.8;
      }
@@ -335,7 +335,7 @@
      border-bottom: 0; 
      h4 {color: #585858; font-size: 24px; }
      .close {
-         margin-top: -15px;
+         margin-top: 10px;
          font-size: 12px;
          opacity: 0.8;
      }
@@ -413,6 +413,10 @@
 		    width: 700px;
 		    margin: 0 auto 30px;
 		}
+			.modal-body {
+			    position: relative;
+			    padding: 15px 25px;
+			}
 
 	h4 { font-size: 24px; font-weight: normal; color: #585858;  }
 	.modal-dialog {
@@ -430,12 +434,13 @@
         padding: 30px 15px 14px;
      border-bottom: 0; 
 	     .close {
-	         margin-top: -15px;
+	         margin-top: 10px;
 	         font-size: 12px;
 	         opacity: 0.8;
 	     }
 	}
 	input {width: 60%; display: inline-block; }
+	.radio-inline input { width: auto; }
 	input.file { width: 40%; }
 	.form-control {
 	    box-shadow: none;
@@ -543,5 +548,21 @@
 
 
 .Editor-editor {
-    height: 200px !important;  
+    min-height: 100px !important;
+    height: 100% !important;
+    border: 0 !important;
+}
+
+
+#menuBarDiv, #statusbar {
+    background-color: transparent !important; 
+    background-image: none;
+   
+    background-repeat: repeat-x;
+    border: 0 !important;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #b3b3b3;
+    filter: none;
+    filter: none;
 }
