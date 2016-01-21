@@ -576,7 +576,8 @@
 		float: left;
 		padding:10px 30px; 
 		border: 1px solid #ddd;
-		h4 {margin:0 ;}
+		cursor: pointer; 
+		h4 {margin:0 ; font-weight: bold; }
 		p {color: #000; font-size: 12px; }
 		p.active {color: #051848; }
 		

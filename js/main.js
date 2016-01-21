@@ -45,6 +45,7 @@ $('#tags').tagsInput( {
 
 
   function goToworkspace () {
+		console.log('go to clicked');
 		window.location.href="project-workspace.html";
 	}
 
