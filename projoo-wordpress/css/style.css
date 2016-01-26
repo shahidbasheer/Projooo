@@ -58,10 +58,18 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 h1 {
   font-size: 48px;
+  color: #000;
 }
 
 h2 {
   font-size: 26px;
+  color: #000;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
 }
 
 p {
@@ -94,11 +102,11 @@ p {
 }
 
 .m-b-30 {
-  margin-bottom: 30px;
+  margin-bottom: 30px  !important;
 }
 
 .m-b-40 {
-  margin-bottom: 40px;
+  margin-bottom: 40px !important;
 }
 
 .m-b-50 {
@@ -149,6 +157,13 @@ p {
   height: 1px;
   display: block;
   margin-bottom: 50px;
+}
+
+.seprater-bottom-70 {
+  content: "";
+  height: 1px;
+  display: block;
+  margin-bottom: 70px;
 }
 
 .border1 {
@@ -256,7 +271,7 @@ p {
   border-bottom: 1px solid fade(#000, 30%);
   text-transform: uppercase;
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: #000;
+  background-color: transparent;
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
@@ -310,6 +325,11 @@ p {
     margin-top: 28px;
   }
 }
+@media (min-width: 767px) {
+  .navbar-nav {
+    margin-top: 28px;
+  }
+}
 /*
  * ----------------------------------------------------------------------------------------
  * Main styles.
@@ -322,6 +342,7 @@ section {
 
 .headwrap {
   position: relative;
+  padding: 0 20px;
 }
 .headwrap .arrow-left {
   position: absolute;
@@ -342,10 +363,13 @@ section {
   color: #fff;
   text-align: center;
   padding: 40px 0 68px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 .headwrap__blue h1 {
   font-weight: 700;
   margin-top: 10px;
+  color: #fff;
 }
 .headwrap__blue p {
   font-weight: bold;
@@ -384,6 +408,9 @@ section {
 .headwrap__blue .form-control:focus {
   border-color: #003471;
 }
+.headwrap__blue.about-us {
+  padding: 40px 0 40px;
+}
 
 .intro {
   font-size: 14px;
@@ -401,7 +428,6 @@ section {
 }
 .anotherintro h2 {
   margin-bottom: 20px;
-  font-weight: bold;
 }
 
 .portfoli {
@@ -502,9 +528,9 @@ section {
 }
 .cta .cta-price i {
   position: absolute;
-  top: -28px;
-  right: -28px;
-  font-size: 44px;
+  top: -24px;
+  right: -24px;
+  font-size: 36px;
   color: #fca344;
 }
 
@@ -514,7 +540,7 @@ section {
 }
 .cta-2 h2 {
   color: #0072bc;
-  max-width: 550px;
+  max-width: 501px;
   font-weight: bold;
 }
 .cta-2 .btn {
@@ -523,27 +549,198 @@ section {
 .cta-2 .arrow {
   position: absolute;
   top: 35px;
-  left: 225px;
+  left: 210px;
 }
 
-footer {
-  padding: 10px  20px;
+footer.site-footer {
+  padding: 20px  20px;
   text-align: center;
   border-top: 1px solid #d4d4d4;
   border-bottom: 1px solid #d4d4d4;
 }
-footer ul {
+footer.site-footer ul {
   margin-bottom: 0;
 }
-footer ul li a {
+footer.site-footer ul li a {
   font-size: 14px;
   font-weight: normal;
   color: #000;
   text-decoration: none;
 }
-footer ul li a:hover, footer ul li a:focus {
+footer.site-footer ul li a:hover, footer.site-footer ul li a:focus {
   text-decoration: none;
   color: #000;
+}
+
+.team {
+  font-size: 14px;
+  text-align: center;
+  max-width: 785px;
+}
+.team h2 {
+  margin-bottom: 20px;
+}
+.team ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.team ul li a:hover, .team ul li a:focus {
+  color: #000;
+  text-decoration: none;
+}
+.team ul li a img {
+  margin-bottom: 8px;
+}
+
+/* ========================blog=================== */
+article.single-post {
+  padding: 0 30px;
+}
+article.single-post .page-title {
+  color: #000;
+}
+article.single-post .entry-meta {
+  color: #333;
+  margin-bottom: 50px;
+}
+article.single-post .entry-meta span.auther {
+  display: block;
+  margin-bottom: 20px;
+}
+article.single-post .entry-content-thumbnail {
+  margin-bottom: 38px;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+article.single-post .entry-content {
+  margin-bottom: 38px;
+}
+article.single-post.archive .entry-content {
+  margin-bottom: 28px;
+}
+article.single-post.archive .entry-meta {
+  margin-bottom: 3px;
+}
+article.single-post.archive footer.entry-meta {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.search-box {
+  border: 1px solid #8dc1ff;
+  background: #fcfdff;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+}
+.search-box h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+.search-box p {
+  /*  font-weight: bold; */
+}
+.search-box .form-control {
+  border-radius: 0;
+  height: 34px;
+  width: 100%;
+}
+.search-box .btn {
+  padding: 8px 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+div.catagries {
+  border: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+div.catagries header {
+  background: #f3f3f3;
+  padding: 10px 15px;
+  color: #000;
+  font-size: 16px;
+}
+div.catagries .content {
+  padding: 25px 30px;
+}
+div.catagries .content ul li {
+  padding: 3px 0px;
+}
+div.catagries .content ul li a {
+  color: #000;
+  font-size: 16px;
+}
+div.catagries .content ul li a:hover, div.catagries .content ul li a:focus {
+  color: #000;
+  text-decoration: underline;
+}
+div.catagries span.count {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+div.about {
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  padding: 25px 30px 30px;
+}
+div.about p {
+  margin-bottom: 20px;
+}
+div.about h4 {
+  margin-bottom: 21px;
+}
+div.about .btn {
+  padding: 8px 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.social-widget {
+  margin-bottom: 20px;
+  padding: 15px 30px 25px;
+  border: 1px solid #dddddd;
+}
+.social-widget h5 {
+  margin-bottom: 0;
+  margin-top: 16px;
+}
+.social-widget ul {
+  list-style: disc !important;
+  margin-bottom: 0;
+}
+.social-widget ul li {
+  padding-right: 4px;
+}
+.social-widget ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+.social-widget ul li a:hover .social-widget ul li a:focus {
+  color: #000;
+}
+.social-widget ul li a:after {
+  content: ".";
+  padding-left: 18px;
+  font-size: 28px;
+}
+.social-widget ul li:last-child a:after {
+  content: "";
+}
+
+span a.more {
+  color: #0072bc;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+span a.more:hover, span a.more:focus {
+  color: #0072bc;
+  text-decoration: underline;
 }
 
 /*
@@ -592,10 +789,28 @@ footer ul li a:hover, footer ul li a:focus {
     margin-right: auto !important;
     margin-left: auto !important;
   }
+
+  .cta .cta-price {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta ul {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
+  }
+
+  .cta-2 .arrow {
+    position: absolute;
+    top: 35px;
+    left: 104px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {

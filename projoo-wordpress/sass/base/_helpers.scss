@@ -19,11 +19,11 @@
 }
 
 .m-b-30 {
-	margin-bottom: 30px;
+	margin-bottom: 30px  !important;
 }
 
 .m-b-40 {
-	margin-bottom: 40px;
+	margin-bottom: 40px !important;
 }
 .m-b-50 {
 	margin-bottom: 50px  !important;
@@ -77,6 +77,14 @@
 	height: 1px;
 	display: block;
 	margin-bottom: 50px;
+}
+
+
+.seprater-bottom-70 {
+	content: "";
+	height: 1px;
+	display: block;
+	margin-bottom: 70px;
 }
 
 

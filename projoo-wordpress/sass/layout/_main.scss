@@ -9,7 +9,7 @@ section  {
 }
 .headwrap{
 	position: relative; 
-
+	padding: 0 20px;
 
 	.arrow-left {
 		position: absolute;
@@ -30,8 +30,10 @@ section  {
 	background: $blue-bg;
 	color: #fff; 
 	text-align: center; 
-	padding: 40px 0 68px; 
-	h1 {font-weight: 700;     margin-top: 10px;}
+	padding: 40px 0 68px;
+	margin-left: -20px;
+    margin-right: -20px; 
+	h1 {font-weight: 700;     margin-top: 10px; color: #fff; }
 	p {font-weight: bold; }
 	.btn {padding: 14px 38px; }
 	.form-control {    height: 48px;  width: 358px; margin-right: 11px; border-color: $blue-dark;
@@ -57,6 +59,9 @@ section  {
 
 	}
 	.form-control:focus { border-color: $blue-dark; }
+	&.about-us {
+	padding:	40px 0 40px;
+	}
 
 
 	
@@ -75,7 +80,8 @@ section  {
 	text-align:center; 
 	max-width: 785px; 
 	
-	h2 {margin-bottom: 20px; font-weight: bold; }
+	h2 {margin-bottom: 20px;}
+
 }
 
 .portfoli {
@@ -137,7 +143,7 @@ section  {
 		span.price {font-size: 40px; }
 		span.super {font-size: 16px; vertical-align: top;}
 		position: relative;
-		i  { position: absolute; top: -28px; right: -28px; font-size: 44px; color:  $orange; }
+		i  { position: absolute; top: -24px; right: -24px; font-size: 36px; color:  $orange; }
 
 	}
 }
@@ -145,13 +151,13 @@ section  {
 .cta-2 {
 	text-align: center; 
 	position: relative;
-	h2 {color: $blue-text; max-width: 550px; font-weight: bold;  }
+	h2 {color: $blue-text; max-width: 501px; font-weight: bold;  }
 	.btn {padding: 14px 38px; }
-	.arrow { position: absolute; top: 35px; left: 225px; }
+	.arrow { position: absolute; top: 35px; left: 210px; }
 }
 
-footer {
-	padding:10px  20px;
+footer.site-footer {
+	padding:20px  20px;
 	text-align: center; 
 	border-top: 1px solid #d4d4d4;
 	border-bottom: 1px solid #d4d4d4;
@@ -169,4 +175,138 @@ footer {
 		}	
 	}
 	
+}
+
+.team {
+	font-size: 14px;
+	text-align:center; 
+	max-width: 785px; 
+	
+	h2 {margin-bottom: 20px;}
+	ul  li a { 
+			color: #000; text-decoration:none;
+			&:hover, &:focus {
+				color: #000; text-decoration:none;
+			}
+			img {margin-bottom: 8px; }
+			
+	}
+}
+
+/* ========================blog=================== */
+
+article.single-post {
+	padding: 0 30px; 
+	.page-title { color: #000; }
+	.entry-meta {
+		color: #333;  
+		span.auther {display: block; margin-bottom: 20px; }
+		margin-bottom: 50px; 
+	}
+	.entry-content-thumbnail { margin-bottom: 38px; margin-top: 20px; width: 100%;  height: auto; }
+	
+
+	.entry-content {
+	 	margin-bottom: 38px;
+	 }
+
+
+	
+
+	&.archive  {
+		
+		.entry-content {
+	 		margin-bottom: 28px;
+	 	}	
+
+	 	.entry-meta { 
+			margin-bottom: 3px;
+	 	}	
+
+		footer.entry-meta { 
+		 	margin-bottom: 40px;
+		 	margin-top: 40px;
+		 	border-bottom: 1px solid #d6d6d6; 
+		 }
+
+
+
+	}
+}
+.search-box {
+	border: 1px solid #8dc1ff;
+	background: #fcfdff;
+	padding: 25px 30px;
+	margin-bottom: 20px; 
+	h5 {margin-top: 0; margin-bottom: 10px; color: #333 }
+	p {/*  font-weight: bold; */ }
+	.form-control{ border-radius: 0; height: 34px; width: 100%;  }
+	.btn {padding: 8px 10px; width: 100%; font-size: 16px; }
+}
+
+div.catagries {
+	header {background: #f3f3f3; padding: 10px 15px; color: #000;  font-size: 16px;  }
+	border: 1px solid #dddddd; 
+	margin-bottom: 20px; 
+	.content { 
+		padding: 25px 30px;
+		ul li {padding: 3px 0px; }
+		ul li a {
+			color: #000;
+			 font-size: 16px;
+			&:hover, &:focus {color: #000; text-decoration: underline;  }
+
+		}
+	}
+	span.count {    margin-left: 4px; margin-right: 4px;}
+}
+
+div.about {
+	margin-bottom: 20px; 
+	border: 1px solid #dddddd; 
+	padding: 25px 30px  30px ;
+	p {margin-bottom: 20px; }
+	h4 {    margin-bottom: 21px;}
+	.btn {padding: 8px 10px; width: 100%; font-size: 16px; }
+}
+
+.social-widget {
+	margin-bottom: 20px;
+	padding: 15px 30px  25px ; 
+	border: 1px solid #dddddd; 
+	h5 { margin-bottom: 0; margin-top: 16px;}
+	ul   { list-style: disc !important;  margin-bottom: 0; }
+	ul li  {    padding-right: 4px;}
+	ul li {
+		a {
+		color: #333; 
+		text-decoration: none; 
+		font-size: 14px; 
+
+		&:hover &:focus {
+			color: #000;
+		}
+			&:after {
+				content: "."; 
+				padding-left: 18px;
+				font-size: 28px; 
+
+			}		
+		
+		}
+		&:last-child a:after {
+			content: ""; 
+		}
+	}
+}
+
+span a.more {
+	color: $blue-text; 
+	font-size: 14px; 
+	font-weight: bold; 
+	text-decoration: underline; 
+	&:hover, &:focus {
+		color: $blue-text; 
+		text-decoration: underline; 
+	}
 }

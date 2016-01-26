@@ -4,24 +4,68 @@
 		"selected_items":
 		[
 			[
-				"con",
-				"console.log()"
+				"html",
+				"html5	html5"
+			],
+			[
+				"date",
+				"date_create"
 			],
 			[
 				"mar",
-				"margin-bottom"
+				"margin"
 			],
 			[
-				"padd",
+				"marg",
+				"margin"
+			],
+			[
+				"btn",
+				"btn-danger	 email.css"
+			],
+			[
+				"arry",
+				"array"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pad",
 				"padding"
 			],
 			[
-				"bor",
+				"padd",
+				"padding-top"
+			],
+			[
+				"bord",
 				"border"
 			],
 			[
-				"tra",
-				"transparent"
+				"pos",
+				"pos	position"
+			],
+			[
+				"bsro",
+				"bs3-jumbotron	bs3-jumbotron"
+			],
+			[
+				"bs",
+				"bs3-col:9	bs3-col-9"
 			],
 			[
 				"di",
@@ -32,20 +76,20 @@
 				"font-size"
 			],
 			[
+				"con",
+				"console"
+			],
+			[
 				"min",
 				"min-width"
 			],
 			[
-				"pad",
-				"padding-left"
+				"bor",
+				"border-top"
 			],
 			[
 				"wid",
 				"width30"
-			],
-			[
-				"tex",
-				"text-decoration"
 			],
 			[
 				"boe",
@@ -100,10 +144,6 @@
 				"m-t-30	 style.css"
 			],
 			[
-				"bord",
-				"border-radius"
-			],
-			[
 				"no",
 				"no-margin	 style.css"
 			],
@@ -124,10 +164,6 @@
 				"pull-right	 font-awesome.min.css"
 			],
 			[
-				"marg",
-				"margin-left"
-			],
-			[
 				"mr",
 				"margin-right"
 			],
@@ -144,10 +180,6 @@
 				"class"
 			],
 			[
-				"html",
-				"html	html"
-			],
-			[
 				"pul",
 				"pull-left	 font-awesome.min.css"
 			],
@@ -158,10 +190,6 @@
 			[
 				"padin",
 				"padding-right"
-			],
-			[
-				"pos",
-				"pos:a	position:absolute"
 			],
 			[
 				"hi",
@@ -184,12 +212,12 @@
 				"border-bottom"
 			],
 			[
-				"btn",
-				"btn-danger	 bootstrap.min.css"
-			],
-			[
 				"cols",
 				"col-sm-11	 bootstrap.min.css"
+			],
+			[
+				"tra",
+				"transition"
 			],
 			[
 				"par",
@@ -440,10 +468,6 @@
 				"border-bg"
 			],
 			[
-				"te",
-				"text-decoration"
-			],
-			[
 				"mag",
 				"margin-left"
 			],
@@ -490,30 +514,6 @@
 			[
 				"get_sit",
 				"get_site_url"
-			],
-			[
-				"tm",
-				"tmp	get_template"
-			],
-			[
-				"get_tem",
-				"get_template_part"
-			],
-			[
-				"copy",
-				"copyright"
-			],
-			[
-				"Dr",
-				"DrGVG"
-			],
-			[
-				"conta",
-				"container"
-			],
-			[
-				"hidde",
-				"hidden-xs"
 			]
 		]
 	},
@@ -535,12 +535,48 @@
 				"Set Syntax: HTML"
 			],
 			[
-				"sass",
-				"Set Syntax: Sass"
+				"mark",
+				"Markdown Preview: Copy to Clipboard"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"blad",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (Tcl)"
 			],
 			[
 				"css",
 				"Set Syntax: CSS"
+			],
+			[
+				"mrk",
+				"Markdown Preview: Copy to Clipboard"
+			],
+			[
+				"mak",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"amk",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mk",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
 			],
 			[
 				"md",
@@ -565,10 +601,6 @@
 			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"mark",
-				"Set Syntax: Markdown"
 			],
 			[
 				"instal",
@@ -615,23 +647,15 @@
 				"Package Control: Install Package"
 			],
 			[
-				"ht",
-				"HTMLBeautify"
-			],
-			[
-				"blad",
-				"Set Syntax: PHP - Laravel Blade"
-			],
-			[
 				"beau",
 				"HTMLBeautify"
 			]
 		],
-		"width": 416.0
+		"width": 400.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 118.0
 	},
 	"distraction_free":
 	{
@@ -644,20 +668,91 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/my_gulp_work_flow/projoo-wordpress/gulpfile.js",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/blog/layouts/master.blade.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/nav.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Http/Controllers/BlogController.php",
+		"/C/Users/Dell/Desktop/githubmarkdown.html",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/config/database.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Post.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/.env",
+		"/C/Users/Dell/Desktop/View.md",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/blog/index.blade.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/storage/framework/views/8dcfeb9f7900d73236bab30c22be5d2aa5a6d855.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/blog/view.blade.php",
+		"/C/xampp/htdocs/laravel-projects/url-shortner/app/views/layout.blade.php",
+		"/C/xampp/htdocs/laravel-projects/url-shortner/app/views/links/create.blade.php",
+		"/C/xampp/htdocs/laravel-projects/url-shortner/composer.json",
 		"/C/Users/Dell/Desktop/drgvg.md",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/inline/index.html",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/config/app.php",
+		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/WelcomeController.php",
+		"/C/xampp/htdocs/urdu-stemmer/app/Http/routes.php",
+		"/C/xampp/htdocs/urdu-stemmer/app/User.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/blog/partials/post.blade.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Comment.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Comments.php",
+		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/Controller.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Http/Controllers/Controller.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/database/migrations/2016_01_24_123249_create_comments_table.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/view.blade.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/index.blade.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/sass/email.scss",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page-2nd.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/email.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/inline/email.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/css/email.css",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/email.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/css/email.css",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/sass/style-landing-page.scss",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Providers/AppServiceProvider.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/.env.example",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/server.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/artisan",
+		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/css/app.css",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/css/bootstrap.min.css",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/out/email.css",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/landing-page.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/config.rb",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/User.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/database/factories/ModelFactory.php",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Jobs/Job.php",
+		"/C/Users/Dell/Desktop/git commands.md",
+		"/C/Users/Dell/Desktop/markdown.html",
+		"/C/Users/Dell/Desktop/markdown2.html",
+		"/E/Templates/html-templates/components/snippets/css/css-hackes.html",
+		"/C/Users/Dell/AppData/Roaming/Composer/vendor/laravel/installer/composer.json",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/functions.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/template-tags.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/widgets.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/featured-content.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/customizer.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/custom-header.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/back-compat.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/plugin.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/wordpress-simple widget/simple-sample-widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/wordpress-simple widget/plugin.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/views/widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfifteen/functions.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfifteen/sidebar.php",
+		"/E/Templates/html-templates/components/snippets/Wordpress/widget-sidebar.html",
+		"/C/Users/Dell/AppData/Roaming/Sublime Text 2/Packages/User/html-snippet-for-local-snippet.sublime-snippet",
+		"/C/xampp/htdocs/my_gulp_work_flow/static-site-genrate-spl-itrator/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/gulpfile.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/dashboard.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/main.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/select-business.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/login.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/project-workspace.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/main.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/static-site-genrate-spl-itrator/composer.json",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/.sass-cache/75c3430ad22772e714149cf89aa666af0e233e14/_nav.scssc",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/dashboard.html",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/functions.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/footer-landing-page.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/header-landing-page.php",
@@ -666,17 +761,14 @@
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/plugins/gravityforms/js/datepicker.js",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/plugins/gravityforms/js/chosen.jquery.min.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/sass/style-landing-page.scss",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page - Copy.php",
-		"/C/Users/Dell/Desktop/git commands.md",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/index.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/css/style-landing-page.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/config.rb",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/gulpfile.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/header.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/footer.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/_components.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
 		"/E/Templates/html-templates/components/snippets/fonts/ie.css",
 		"/C/xampp/htdocs/my_gulp_work_flow/node_modules/gulp-sass/README.md",
 		"/E/Templates/html-templates/components/snippets/fonts/foundation.css",
@@ -689,9 +781,7 @@
 		"/F/ZTE/ZTE-Driver/Web_Driver/Configurations/git resources/New Text Document.md",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/bootstrap-wysiwyg.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_responsive.scss",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/nav.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/routes.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/login.html",
 		"/C/xampp/htdocs/urdu-stemmer/resources/views/home.blade.php",
 		"/C/xampp/htdocs/urdu-stemmer/public/index.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/style.css",
@@ -705,73 +795,7 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/index.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/sass/layout/_nav.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/html/html_Moudles/nav.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/sass/layout/_main.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/html/index.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/sass/base/_variables.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/Timber-master/README.md",
-		"/C/xampp/htdocs/my_gulp_work_flow/Timber-master/config/settings_schema.json",
-		"/C/xampp/htdocs/my_gulp_work_flow/Timber-master/config/settings_data.json",
-		"/C/xampp/htdocs/my_gulp_work_flow/Timber-master/config.yml",
-		"/C/xampp/htdocs/my_gulp_work_flow/Timber-master/config-sample.yml",
-		"/E/Templates/html-templates/components/snippets/Nav Menu/bootstrap-nav-default-custom/css/style.css",
-		"/E/Templates/html-templates/components/snippets/Nav Menu/bootstrap-nav-default-custom/index.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/sass/components/_buttons.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/sass/components/_form-control.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/html/fake.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/html/html_Moudles/header.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/AngularJS-Boilerplate/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/AngularJS-Boilerplate/package.json",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/AngularJS-Boilerplate/bower.json",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/css/style-landing-page.min.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/compass_temp_assets/style-landing-page.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/compass_temp_assets/style-landing-page.min.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/style.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/_mixins.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/_layout.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/_components.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/_base.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/layout/_sidebar.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/layout/_responsive.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/layout/_nav.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/layout/_main.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/layout/_header.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/layout/_footer.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/components/_form-control.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/components/_buttons.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/base/_variables.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/base/_helpers.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/sass/base/_globals.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/js/main.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/html/html_Moudles/footer.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/html/index.html",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg/page-landing-page.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg/footer-landing-page.php",
-		"/C/xampp/htdocs/drgvg/landing-page.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/css/style-landing-page.css",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg/header.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg/header-landing-page.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/landing-page.html",
-		"/E/Templates/html-templates/components/snippets/snippets.html",
-		"/E/Templates/html-templates/components/snippets/forms/subsctiption-form.html",
-		"/C/xampp/htdocs/drgvg/header.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/sass/style.scss",
-		"/C/xampp/htdocs/drgvg/body-contouring-treatment.php",
-		"/C/xampp/htdocs/drgvg/footer.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/index.html",
-		"/C/xampp/htdocs/urdu-stemmer/resources/views/app.blade.php",
-		"/C/xampp/htdocs/urdu-stemmer/composer.json",
-		"/C/xampp/htdocs/urdu-stemmer/composer.lock",
-		"/C/Users/Dell/Desktop/heroku.md",
-		"/C/xampp/htdocs/heroku/expressenglish/vendor/bin/classpreloader.php",
-		"/C/xampp/htdocs/heroku/expressenglish/composer.json",
-		"/C/xampp/htdocs/heroku/php-getting-started/web/composer.json",
-		"/C/xampp/htdocs/urdu-stemmer/public/css/style.css",
-		"/C/xampp/htdocs/urdu-stemmer/app/User.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Middleware/VerifyCsrfToken.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Middleware/RedirectIfAuthenticated.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Middleware/Authenticate.php"
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/promagic/sass/layout/_main.scss"
 	],
 	"find":
 	{
@@ -790,23 +814,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			";",
-			"goToworkspace",
-			"onclick=\"goToworkspace();\"",
-			"goToworkspace",
-			"button",
-			"seprater-bottom-30",
-			"h3",
-			".tasks",
-			"class=\"project\"",
-			"()",
-			"goToworkspace",
-			"myFunction",
-			".close",
-			"909",
-			"ws__tickets ",
-			"workspace ",
-			"projects",
+			"$view",
+			"content",
+			"img/",
+			"View",
+			"Losing your hair?\n",
+			"You CAN get it b",
+			"You CAN get it back!",
+			"inline",
+			"padding: 30px 0; ",
+			"uncs",
+			"ffffff",
+			"h2",
+			"slider-left-banner",
+			"h4",
+			"h5",
+			"hair los",
+			"hiar loss",
+			".lp__appointmetn-bottom .treatment-block i",
+			"treatment-block",
+			"lp__before-and-afte",
+			"#landing-form",
+			"#landing-form  ",
+			"#landing-form",
+			"100px",
+			"12",
+			"Front_To_Back",
+			"col-sm-6",
+			"php",
 			"out",
 			"ease-in-out",
 			"ease-out;",
@@ -906,18 +941,7 @@
 			"images",
 			"sm",
 			"h3",
-			"909",
-			"4",
-			"f1d67f",
-			".lp__testimonial",
-			".dr-msg img",
-			"lp__testimonial__block ",
-			"170px",
-			"owl-demo",
-			".jpg",
-			"assets",
-			"owl-carousel",
-			"re about Dr GVG Clinic "
+			"909"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1059,20 +1083,20 @@
 		"selected_items":
 		[
 			[
-				"ain",
-				"sass/layout/_main.scss"
+				"rou",
+				"app/Http/routes.php"
 			],
 			[
-				"hel",
-				"sass/base/_helpers.scss"
+				"main",
+				"sass/layout/_main.scss"
 			],
 			[
 				"nav",
 				"sass/layout/_nav.scss"
 			],
 			[
-				"main",
-				"sass/layout/_main.scss"
+				"hel",
+				"sass/base/_helpers.scss"
 			],
 			[
 				"head",
@@ -1403,10 +1427,6 @@
 				"views/admin/applications.blade.php"
 			],
 			[
-				"rou",
-				"routes.php"
-			],
-			[
 				"singl",
 				"views/admin/single.blade.php"
 			],
@@ -1585,6 +1605,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 225.0,
 	"status_bar_visible": true
 }

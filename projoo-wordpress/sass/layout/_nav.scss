@@ -13,7 +13,7 @@ $light: #000;
     border-bottom: 1px solid fade($light, 30%);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: $dark;
+    background-color: transparent;
     .navbar-brand {
         font-weight: 700;
         &:focus {
@@ -79,3 +79,11 @@ $light: #000;
 	 	margin-top: 28px;
 	}
 }
+
+@media(min-width:767px) { 
+    .navbar-nav {
+    margin-top: 28px;
+}
+
+}
+

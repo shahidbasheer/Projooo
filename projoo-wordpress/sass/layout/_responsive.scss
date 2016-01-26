@@ -18,6 +18,21 @@
     		margin-left: auto !important;
 		}	
 	}
+
+  .cta .cta-price {
+   
+   float: none;
+   margin-left: auto; 
+   margin-right: auto; 
+  }
+
+  .cta ul {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  
 	
 
 }
@@ -28,6 +43,11 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
+  }
+    .cta-2 .arrow {
+      position: absolute;
+      top: 35px;
+      left: 104px;
   }
 }
 
