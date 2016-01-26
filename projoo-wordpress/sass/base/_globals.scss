@@ -32,6 +32,13 @@
 	       
 	}
 
+	@font-face {
+	font-family: 'AvenirLTStd-Book';
+	src: url(../fonts/AvenirLTStd-Book.otf);
+	  
+	       
+	}
+
 
 	
 
@@ -61,5 +68,6 @@ h5 {
 }
 
 p {
-	font-size: 16px; 
+	font-size: 16px;
+	color: #000;
 }

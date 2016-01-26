@@ -9,7 +9,7 @@ $dark: #000;
 $light: #000;
 
 .navbar-custom {
-    margin-bottom: 50px;
+    margin-bottom: 0;
     border-bottom: 1px solid fade($light, 30%);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -58,7 +58,7 @@ $light: #000;
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 0 0 20px;
         border-bottom: none;
         letter-spacing: 1px;
         background: transparent;
