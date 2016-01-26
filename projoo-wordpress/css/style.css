@@ -345,6 +345,10 @@ section {
   margin-bottom: 50px;
 }
 
+section.intro {
+  margin-bottom: 0;
+}
+
 .headwrap {
   position: relative;
   padding: 0 20px;
