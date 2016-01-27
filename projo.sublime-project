@@ -2,7 +2,13 @@
 	"folders":
 	[
 		{
-			"path": "projoo-wordpress"
+			"path": "html"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "sass"
 		}
 	]
 }

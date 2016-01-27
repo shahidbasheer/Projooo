@@ -264,7 +264,7 @@
 	padding: 20px 30px;
 	.form-control{ border-radius: 0; } 
 	label {font-weight: normal;  }
-	h2 {font-weight: bold; color: #00a765; }
+	h2 {font-weight: bold; color: #00a765; margin-top: 0; }
 	p {font-weight: bold; margin-bottom: 20px;  }
 	a.reset {color: #0000cd; text-decoration: underline; &:hover { color: #0000cd; } }
 	.nofification {
@@ -274,9 +274,21 @@
 		margin: -20px -30px 0;
 		border-top-left-radius: 17px;
 		border-top-right-radius: 17px;
+		margin-bottom: 20px; 
 		&.red { background:  $red; }
 		&.green { background:  #00a765; }
 	}
+
+	.signup__checkbox {
+		background: #f6f6f6; 
+		margin-right: -30px;
+		margin-left: -30px;
+		padding: 6px 6px 6px 30px;
+		label {font-weight: bold; }
+
+
+	}
+	.btn {padding: 6px 24px; }
 }
 
 #add_new {
@@ -508,7 +520,12 @@
 	
 	i {color: #2b587b; }
 
-	
+	.Editor-editor {
+	    min-height: 100px !important;
+	    height: 100% !important;
+	    border: 0 !important;
+	}
+
 	
 	
 }// end 
@@ -547,11 +564,6 @@
 }
 
 
-.Editor-editor {
-    min-height: 100px !important;
-    height: 100% !important;
-    border: 0 !important;
-}
 
 
 #menuBarDiv, #statusbar {
@@ -585,3 +597,157 @@
 	}
 }
 
+
+
+.open-discussion {
+	margin-bottom: 30px;
+	border: 1px solid #ddd;
+	
+	span.upload { 
+		color: #0095ff;
+		
+	}
+	span.nofity {
+		color: #2b587b; 
+	}
+	
+	span.nofity, span.upload {
+		margin-right: 4px;
+		margin-left: 4px;
+		font-size: 14px; 
+	}
+
+	.Editor-editor {
+    	
+    	border: 0px solid #EEE; 
+	}
+	
+	i {color: #2b587b; }
+
+		input {width: 60%; display: inline-block; }
+		.radio-inline input { width: auto; }
+		input.file { width: 40%; }
+		.form-control {
+		    box-shadow: none;
+		    background-color: transparent;
+		    border-radius: 0;
+		    background: transparent;
+		    box-shadow: none;
+		    border: 0;
+		    text-align: left;
+		    display: inline-block;
+		    vertical-align: bottom;
+		    padding: 2px 12px;
+		    margin-bottom: 0;
+		}
+		.form-control:focus {
+		    border-color: #ccc;
+		    box-shadow: none;
+		}
+		.form-group {
+			padding-top: 15px;
+	    	padding-bottom: 0;
+	    	padding-left: 8px;
+	    	//margin-bottom: 10px;
+		}
+		.border-top-1 {
+			border-top: 1px solid #ddd;
+		}
+		.gray-placeholder
+		{
+			&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+			    color:    #b8b8b8;
+			}
+			&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			   color:    #b8b8b8;
+			   opacity:  1;
+			}
+			&::-moz-placeholder { /* Mozilla Firefox 19+ */
+			   color:    #b8b8b8;
+			   opacity:  1;
+			}
+			&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			   color:    #b8b8b8;
+			}
+			&:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+			  color:    #b8b8b8;
+			}
+		}
+
+}
+
+.open-discussion__info {
+	background: #f2f2f2;
+	padding: 10px 20px;
+	img {display: inline-block; margin-right: 10px; }
+	p {margin-bottom: 0; font-weight: bold; display: inline-block; }
+	a {
+		color: #4240cd; 
+		text-decoration: underline;
+		&:hover, &:focus {
+			color:darken( #4240cd, 5% );
+			text-decoration: underline;
+		}
+	}
+}
+.btn-cp {padding: 6px 60px !important;}
+.open-discussion__heading {
+	font-weight: bold;
+    padding: 4px 20px;
+    color: #000; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.open-discussion-threads {
+	padding-left: 30px; 
+	padding-right: 30px;
+	
+	.media-list {margin-bottom: 30px; }
+
+	.media-body {
+	   border: 1px solid #ddd;
+	    //padding: 10px 0;
+	}	
+	.media-heading {    
+    border-bottom: 1px solid #ddd; 
+    padding: 10px; 
+	}
+	h4 {font-size: 14px;  }
+
+	p {
+		padding: 10px;
+	}
+	span.files-attached {
+		padding:10px; 
+		font-weight: bold;
+		font-size: 12px;
+		
+		//margin-left: 10px; 
+	}
+}
+
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}

@@ -26,6 +26,10 @@
   @include button-variant( #000 , #fff , #e4e4e4 );
 }
 
+.btn-green {
+  @include button-variant( #fff , #00a765 , #00a765 );
+}
+
 
 //size of btn
 

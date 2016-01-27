@@ -11,6 +11,9 @@
 
 
 
+.m-b-10 {
+	margin-bottom: 10px !important;
+}
 .m-b-20 {
 	margin-bottom: 20px !important;
 }
@@ -86,6 +89,10 @@
   margin: 0 !important;
 }
 
+.no-m-b {
+  margin-bottom: 0 !important;
+}
+
 .no-padding {
    padding: 0 !important;
 }
@@ -96,6 +103,11 @@
 .no-padding-left {
    padding-left: 0 !important;
 }
+
+.no-padding-bottom {
+   padding-bottom: 0 !important;
+}
+
 
 .devider-90 {
 	content: "";
