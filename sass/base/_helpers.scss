@@ -33,6 +33,11 @@
 }
 
 
+.m-b-70 {
+	margin-bottom: 70px  !important;
+}
+
+
 .m-t-10 {
 	margin-top: 10px  !important;
 }
@@ -50,6 +55,11 @@
 
 .m-t-50 {
 	margin-top: 50px  !important;
+}
+
+
+.m-t-80 {
+	margin-top: 80px  !important;
 }
 
 
@@ -121,6 +131,16 @@
 .devider-100 {
 	content: "";
 	width: 100%;
+	height: 1px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ddd;
+}
+
+.devider-97 {
+	content: "";
+	width: 97%;
 	height: 1px;
 	display: block;
 	margin-left: auto;
