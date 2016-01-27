@@ -9,7 +9,10 @@ http://gtechlabs.biz/projooo/dashboard.html
 http://gtechlabs.biz/projooo/project-workspace.html
 
 
-http://gtechlabs.biz/projooo/select-business.html
+http://gtechlabs.biz/projooo/open-discussion.html
+http://gtechlabs.biz/projooo/open-discussion-discussion.html
+http://gtechlabs.biz/projooo/set-up-account.html
+
 
 
 can you udpate 
