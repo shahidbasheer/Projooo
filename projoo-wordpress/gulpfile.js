@@ -119,7 +119,9 @@ var gulp = require('gulp'),
 
 	var config_rb = rootAddress  + 'config.rb';
 	var compassSource = rootAddress  + 'sass/*.scss';
-	var compassDest = rootAddress  + 'css';
+	//var compassDest = rootAddress  + 'css';
+	var compassDest = rootAddress  + 'C:\\xampp\\apps\\wordpress\\htdocs\\wp-content\\themes\\projoo_theme\\includes\\css';
+	
 	var sassFolder = rootAddress  + 'sass';
 	var tmpassets = rootAddress  + 'compass_temp_assets';
 

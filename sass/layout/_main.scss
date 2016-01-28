@@ -262,8 +262,17 @@
 	border: 2px solid #00a765;
 	border-radius: 20px; 
 	padding: 20px 30px;
-	.form-control{ border-radius: 0; } 
-	label {font-weight: normal;  }
+	.form-control{ border-radius: 0;
+
+
+	} 
+
+	select {
+ 			color:    #5e5e5e; 
+ 			font-size: 1.1em; 		
+	}
+
+	label {font-weight: normal; font-size: 16px; color: #5e5e5e; }
 	h2 {font-weight: bold; color: #00a765; margin-top: 0; }
 	p {font-weight: bold; margin-bottom: 20px;  }
 	a.reset {color: #0000cd; text-decoration: underline; &:hover { color: #0000cd; } }
@@ -719,6 +728,7 @@
 	.media-body {
 	   border: 1px solid #ddd;
 	    //padding: 10px 0;
+	        padding: 0 0 8px;
 	}
 	.original-msg {
 		.media-body {	 
@@ -755,6 +765,10 @@
 	.file-uplaod-wraper	 {
 		background: #ebebeb;
 		max-height: 28px;	
+		margin-top: 6px;
+		input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus {
+    	outline: none; 
+    	}
 	}
 	
 
@@ -845,5 +859,7 @@
 			width: 300px; 
 		}
 }
+
+
 
 

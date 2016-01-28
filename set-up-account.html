@@ -130,11 +130,30 @@
 					      <option>IND</option>					      
 					    </select>
 					  </div>
+
+						<div class="file-uploader-wraper">
+							<div class="location"><h5>Uplaod Your profile Image</h5></div>
+					  		 <div class="profile">
+									
+					   			<div class="profile-avatar-wrap">
+					   				<img src="img/256.jpg" id="profile-avatar" alt="Image for Profile">
+					   			</div>					   			   			   			
+
+					   		</div>	
+						</div>			
+
+
+					   		<span class="btn btn-default btn-file">						       			
+							   Select Image<input type="file" id="uploader">
+							</span>
+
+
 					  					  
 					 <div class="row no-margin">
 					 	 <button type="submit" class="btn btn-green center-block m-t-30 m-b-30">Continue</button>
 					 </div>
-						
+
+					
 						
 					</form>
 				</div>
@@ -167,7 +186,10 @@
              <script src="js/editor.js"></script>
          	<script src="js/dmuploader.min.js"></script>
          	<script src="js/jquery.tagsinput.min.js"></script>
+         	<script src="js/resample.js"></script>
+         	<script src="js/avatar.js"></script>
            	<script src="js/main.js"></script>
+         
          
            
          </body>
@@ -175,3 +197,98 @@
          
          
          
+
+         <style>
+			
+			
+
+			
+
+         </style>
+
+
+
+         <style type="text/css" style="display: none !important;">
+	
+	#demo-top-bar {
+		text-align: left;
+		background: #222;
+		position: relative;
+		zoom: 1;
+		width: 100% !important;
+		z-index: 6000;
+		padding: 20px 0 20px;
+	}
+	#demo-bar-inside {
+		width: 960px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+	}
+	#demo-bar-buttons {
+		padding-top: 10px;
+		float: right;
+	}
+	#demo-bar-buttons a {
+		font-size: 12px;
+		margin-left: 20px;
+		color: white;
+		margin: 2px 0;
+		text-decoration: none;
+		font: 14px "Lucida Grande", Sans-Serif !important;
+	}
+	#demo-bar-buttons a:hover,
+	#demo-bar-buttons a:focus {
+		text-decoration: underline;
+	}
+	#demo-bar-badge {
+		display: inline-block;
+		width: 302px;
+		padding: 0 !important;
+		margin: 0 !important;
+		background-color: transparent !important;
+	}
+	#demo-bar-badge a {
+		display: block;
+		width: 100%;
+		height: 38px;
+		border-radius: 0;
+		bottom: auto;
+		margin: 0;
+		background: url(/images/examples-logo.png) no-repeat;
+		background-size: 100%;
+		overflow: hidden;
+		text-indent: -9999px;
+	}
+	#demo-bar-badge:before, #demo-bar-badge:after {
+		display: none !important;
+	}
+
+	.btn.btn-file {
+		padding: 6px 14px;
+		border-color: #ddd;
+	}
+
+
+	.btn-file {
+    overflow: hidden;
+    position: relative;
+    padding: 8px 30px;
+	}
+
+
+.btn-file input[type="file"] {
+    background: white none repeat scroll 0 0;
+    cursor: inherit;
+    display: block;
+    font-size: 100px;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+</style>
