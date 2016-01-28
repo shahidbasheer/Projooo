@@ -23,6 +23,7 @@
 				  position: relative;
 				  pointer-events: none;
 				 border: 1px solid #ddd;
+				     border-radius: 4px;
 				}
 				.profile-avatar-wrap:after {
 				  /* Drag Prevention */
@@ -36,6 +37,7 @@
 				.profile-avatar-wrap img {
 				  width: 100%;
 				  display: block;
+				      border-radius: 4px;
 				}
 				.location {
 				  text-transform: capitalize;
