@@ -48,6 +48,10 @@
   .hidden-md {
     display: none !important;
   }
+
+  .second-nav .navbar-header {
+    width: 79%;
+  }
 }
 @media (min-width: 1200px) {
   	.container {
