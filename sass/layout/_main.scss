@@ -723,7 +723,7 @@
 	padding-left: 30px; 
 	padding-right: 30px;
 	
-	.media-list {margin-bottom: 30px; }
+	.media-list {margin-bottom: 50px; }
 
 	.media-body {
 	   border: 1px solid #ddd;
@@ -863,3 +863,8 @@
 
 
 
+.open-discussion.threads {
+	.Editor-editor {
+	    height: 150px; 
+	}
+}

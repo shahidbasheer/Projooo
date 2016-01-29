@@ -4,8 +4,56 @@
 		"selected_items":
 		[
 			[
-				"mar",
+				"tex",
+				"text-transform"
+			],
+			[
+				"get_theme",
+				"get_theme_root_uri"
+			],
+			[
+				"gethe",
+				"get_header"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mr",
+				"margin"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"marg",
 				"margin-bottom"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"htl",
+				"htm5-local	html-snippet-for-local-snippet"
+			],
+			[
+				"bsc",
+				"bs3-col:9	bs3-col-9"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"fon",
+				"font-weight"
 			],
 			[
 				"html",
@@ -14,10 +62,6 @@
 			[
 				"date",
 				"date_create"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"btn",
@@ -36,16 +80,8 @@
 				"disc"
 			],
 			[
-				"tex",
-				"text-align"
-			],
-			[
 				"te",
 				"text-align"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"padd",
@@ -72,20 +108,12 @@
 				"display"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"con",
 				"console"
 			],
 			[
 				"min",
 				"min-width"
-			],
-			[
-				"bor",
-				"border-top"
 			],
 			[
 				"wid",
@@ -98,10 +126,6 @@
 			[
 				"bnt",
 				"btn-default	 bootstrap.min.css"
-			],
-			[
-				"form",
-				"form-control	 bootstrap.min.css"
 			],
 			[
 				"margin",
@@ -162,10 +186,6 @@
 			[
 				"pull",
 				"pull-right	 font-awesome.min.css"
-			],
-			[
-				"mr",
-				"margin-right"
 			],
 			[
 				"li",
@@ -494,26 +514,6 @@
 			[
 				"col-lg",
 				"col-lg-8"
-			],
-			[
-				"eq",
-				"breast-equalization-treatment"
-			],
-			[
-				"div",
-				"divider"
-			],
-			[
-				"margin-t",
-				"margin-top"
-			],
-			[
-				"inlie",
-				"inline"
-			],
-			[
-				"get_sit",
-				"get_site_url"
 			]
 		]
 	},
@@ -523,9 +523,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"md",
+				"Emmet: Decrement Number by 1"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -533,10 +541,6 @@
 			[
 				"html",
 				"Set Syntax: HTML"
-			],
-			[
-				"mark",
-				"Markdown Preview: Copy to Clipboard"
 			],
 			[
 				"blade",
@@ -577,10 +581,6 @@
 			[
 				"sass",
 				"Set Syntax: Sass"
-			],
-			[
-				"md",
-				"Emmet: Decrement Number by 1"
 			],
 			[
 				"php",
@@ -668,15 +668,85 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav-2.html",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/functions.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/sidebar.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/home.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/archive.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-front-page.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/index.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/header.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/content.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/single.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/index.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_cat.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_social.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-includes/widgets.php",
+		"/C/Users/Dell/AppData/Local/Temp/Rar$DIa0.000/cat-posts.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/list-categories-widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget.php",
+		"/F/ZTE/ZTE-Driver/Web_Driver/wordpress plugins/list-categories-widget.php/list-categories-widget.php",
+		"/C/Users/Dell/AppData/Local/Temp/Rar$DIa0.616/count_posts_in_cat.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-includes/taxonomy.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/searchform.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/views/admin.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/custom.php",
+		"/C/Users/Dell/Desktop/Markdown Notes/Laravel helpers/View.md",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/views/widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/footer.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_about.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/sass/layout/_main.scss",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/wordpress-simple widget/simple-sample-widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-includes/http.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/js/bootstrap-wp.js",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/js/customizer.js",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/customizer.php",
+		"/C/Users/Dell/Desktop/Markdown Notes/Wordpress.md",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/template-tags.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/popular-posts-widget.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/content-single.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/content-page.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-single.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/config.rb",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_tk/content-single.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/page.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/archive.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_s/template-parts/content.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/image.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_s/page.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_s/single.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/front-page.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/extras.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/no-results.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-page.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/blog-details.html",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/header.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/footer.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/index.html",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page-2nd.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/functions.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/nav.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/header.html",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/style.css",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/set-up-account.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_responsive.scss",
+		"/C/Users/Dell/AppData/Local/Temp/Rar$DIa0.765/functions.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion-discussion.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_variables.scss",
+		"/E/Templates/html-templates/components/snippets/forms/file-upload.html",
+		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/_assets/2701-15/psd/php/contact.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/_assets/2701-15/psd/index.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/select-business.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav-2.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/components/_buttons.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/select-business.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projo.sublime-workspace",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projo.sublime-project",
 		"/C/xampp/htdocs/my_gulp_work_flow/projoo-wordpress/gulpfile.js",
@@ -711,7 +781,6 @@
 		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/view.blade.php",
 		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/index.blade.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/sass/email.scss",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page-2nd.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/email.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/gulpfile.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/inline/email.html",
@@ -726,76 +795,7 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/gulpfile.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/css/app.css",
 		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/css/bootstrap.min.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/out/email.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/landing-page.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/config.rb",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/User.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/database/factories/ModelFactory.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Jobs/Job.php",
-		"/C/Users/Dell/Desktop/git commands.md",
-		"/C/Users/Dell/Desktop/markdown.html",
-		"/C/Users/Dell/Desktop/markdown2.html",
-		"/E/Templates/html-templates/components/snippets/css/css-hackes.html",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/laravel/installer/composer.json",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/functions.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/template-tags.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/widgets.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/featured-content.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/customizer.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/custom-header.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfourteen/inc/back-compat.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/plugin.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/wordpress-simple widget/simple-sample-widget.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/wordpress-simple widget/plugin.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/views/widget.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfifteen/functions.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfifteen/sidebar.php",
-		"/E/Templates/html-templates/components/snippets/Wordpress/widget-sidebar.html",
-		"/C/Users/Dell/AppData/Roaming/Sublime Text 2/Packages/User/html-snippet-for-local-snippet.sublime-snippet",
-		"/C/xampp/htdocs/my_gulp_work_flow/static-site-genrate-spl-itrator/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/empty-html-project/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/dashboard.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/project-workspace.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/main.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/static-site-genrate-spl-itrator/composer.json",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/.sass-cache/75c3430ad22772e714149cf89aa666af0e233e14/_nav.scssc",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/dashboard.html",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/functions.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/footer-landing-page.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/header-landing-page.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/js/jquery-ui.js",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/js/main.js",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/plugins/gravityforms/js/datepicker.js",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/plugins/gravityforms/js/chosen.jquery.min.js",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page - Copy.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/index.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/css/style-landing-page.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/header.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/footer.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/_components.scss",
-		"/E/Templates/html-templates/components/snippets/fonts/ie.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/node_modules/gulp-sass/README.md",
-		"/E/Templates/html-templates/components/snippets/fonts/foundation.css",
-		"/E/Templates/html-templates/components/snippets/fonts/brograms.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/package.json",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/css/style.min.css",
-		"/E/Templates/html-templates/components/snippets/forms/angualr tag input feild/tag-input.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/dmuploader.min.js",
-		"/C/Users/Dell/AppData/Local/Temp/Rar$DIa0.237/dmuploader.jquery.json",
-		"/F/ZTE/ZTE-Driver/Web_Driver/Configurations/git resources/New Text Document.md",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/bootstrap-wysiwyg.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_responsive.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/login.html",
-		"/C/xampp/htdocs/urdu-stemmer/resources/views/home.blade.php",
-		"/C/xampp/htdocs/urdu-stemmer/public/index.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/style.css",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg/style.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/signup.html",
-		"/E/Templates/html-templates/components/snippets/modals window/Without Border.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_variables.scss"
+		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/out/email.css"
 	],
 	"find":
 	{
@@ -814,6 +814,55 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Subscribe to Our Newsletter and Other tih5es for Business\n\n\n",
+			"2",
+			"categories",
+			"wp_widget_categories",
+			"widget_calendar",
+			"facebook_username",
+			"fb_heading",
+			"widefat",
+			"facebook_username",
+			"twitter_username",
+			"facebook_username",
+			"facebook_link",
+			"buttonLabel",
+			"loan-application",
+			"text",
+			"heading",
+			"buttonLabel",
+			"heading",
+			"name",
+			"bio",
+			"front-to-back",
+			"Projo_about_Widget",
+			"Projo_Categories_Widget",
+			"sample_widget",
+			"Projo_Categories_Widget",
+			"Projo_search_Widget",
+			"auther",
+			"Posted",
+			"_tk_posted_on",
+			"page-title",
+			"nav-below",
+			"img/",
+			"avatar-1",
+			"col-xs",
+			"col-xs-3",
+			"4",
+			"50",
+			"100",
+			".open-discussion",
+			"open-discussion__heading",
+			"New Discussio",
+			"span",
+			"open-discussion-threads",
+			"9",
+			"h4",
+			"ddd",
+			"909",
+			"no",
+			"h2",
 			"add_new_workspace",
 			"10",
 			"signup__inner",
@@ -892,56 +941,7 @@
 			"js",
 			"h3.gform_title",
 			"color:    #000;",
-			"add_new",
-			"ws__discuss",
-			"padding-top: 8px; ",
-			"vertical-align: top;",
-			"30",
-			"col-sm-4",
-			"909",
-			"avatar",
-			"invite-team-members",
-			"You can find the documents here:",
-			"defa",
-			"1em",
-			"ddd",
-			"2em",
-			"909",
-			"col-sm-12",
-			"external",
-			"exter",
-			" that&mdash;be sure to include why it's great",
-			"col-sm-6",
-			"left",
-			"lef",
-			"password",
-			"Password",
-			"password",
-			"Password",
-			"password",
-			"Password",
-			"password",
-			"Password",
-			"password",
-			"10px",
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, amet.",
-			"yellow",
-			"ffd800",
-			"header",
-			"discuss",
-			"div",
-			"<h3>Ashoka Website Development</h3>",
-			"col-xs-12",
-			"col-sm-4",
-			"h2",
-			"yello",
-			"navbar-nav",
-			"heading_color",
-			"$",
-			"orange",
-			"reload",
-			"defined",
-			"images"
+			"add_new"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -949,6 +949,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"facebook_username",
+			"heading_about_us",
+			"<?php echo  theme_root . '/'; ?>includes/img/",
+			"<?php echo  theme_root . '/'; ?>assets/img/",
+			"<?php echo  theme_root . '/'; ?>assets/img/\n\n",
 			"<?php echo  theme_root . '/'; ?>images\n\n",
 			"</option>\n\n",
 			"CONFIG_HARDWARE",
@@ -1083,6 +1088,22 @@
 		"selected_items":
 		[
 			[
+				"res",
+				"sass/layout/_responsive.scss"
+			],
+			[
+				"nav",
+				"sass/layout/_nav.scss"
+			],
+			[
+				"hel",
+				"sass/base/_helpers.scss"
+			],
+			[
+				"var",
+				"sass/base/_variables.scss"
+			],
+			[
 				"main",
 				"sass/layout/_main.scss"
 			],
@@ -1095,16 +1116,8 @@
 				"sass/components/_buttons.scss"
 			],
 			[
-				"hel",
-				"sass/base/_helpers.scss"
-			],
-			[
 				"rou",
 				"app/Http/routes.php"
-			],
-			[
-				"nav",
-				"sass/layout/_nav.scss"
 			],
 			[
 				"head",
@@ -1113,10 +1126,6 @@
 			[
 				"com",
 				"sass/_components.scss"
-			],
-			[
-				"res",
-				"sass/layout/_responsive.scss"
 			],
 			[
 				"na",
@@ -1129,10 +1138,6 @@
 			[
 				"fo",
 				"sass/layout/_footer.scss"
-			],
-			[
-				"var",
-				"sass/base/_variables.scss"
 			],
 			[
 				"sty",
