@@ -812,6 +812,8 @@
 #modal_add_remove_team {
 
 	.modal-content {
+		overflow: auto;
+    	height: 352px;	
 	    padding: 20px 30px;
 	    border-radius: 0px;
 	    outline: 0;
