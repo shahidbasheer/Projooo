@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"isar",
+				"is_archive"
+			],
+			[
+				"htm",
+				"htm5-local	html-snippet-for-local-snippet"
+			],
+			[
+				"html",
+				"html5	html5"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"isho",
+				"is_home"
+			],
+			[
 				"tex",
 				"text-transform"
 			],
@@ -14,10 +38,6 @@
 			[
 				"gethe",
 				"get_header"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"mr",
@@ -54,10 +74,6 @@
 			[
 				"fon",
 				"font-weight"
-			],
-			[
-				"html",
-				"html5	html5"
 			],
 			[
 				"date",
@@ -498,22 +514,6 @@
 			[
 				"borr",
 				"border-radius"
-			],
-			[
-				"fot",
-				"font-weight"
-			],
-			[
-				"ps",
-				"pos-s	position: static;"
-			],
-			[
-				"fonts",
-				"font-size"
-			],
-			[
-				"col-lg",
-				"col-lg-8"
 			]
 		]
 	},
@@ -668,24 +668,65 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/functions.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/sidebar.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/home.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/archive.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-front-page.php",
-		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/index.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content.php",
-		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/header.php",
-		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/content.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/single.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/index.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_cat.php",
+		"/C/Users/Dell/Desktop/Markdown Notes/Wordpress.md",
+		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/woocommerce.php",
+		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/template-home-1.php",
+		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/includes/portfolio-functions/video.php",
+		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/includes/post-templates/entry-gallery.php",
+		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/includes/header-search.php",
+		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav.html",
+		"/E/torrentz/Moveis/alertify.core.css",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_about.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_social.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
+		"/E/Templates/html-templates/components/snippets/modals window/Without Border.html",
+		"/F/ZTE/ZTE-Driver/Web_Driver/wordpress plugins/Snipts/list-categories-widget.php",
+		"/F/ZTE/ZTE-Driver/Web_Driver/wordpress plugins/Snipts/theme_widget_about.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/list-categories-widget.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-front-page.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/header-front-page.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/home.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/header.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/archive.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/blog.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion-thread.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/css/new.css",
+		"/E/Templates/html-templates/components/snippets/forms/custome-select/custome-select.html",
+		"/E/Templates/html-templates/components/snippets/css-tricks/Performance Budget Builder.html",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-about-us-page.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/sass/new.scss",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-about-us.php",
+		"/E/Templates/html-templates/components/snippets/forms/file uploader/file-uplader.html",
+		"/C/Users/Dell/Desktop/Wordpress Theme data/5.content.html",
+		"/C/Users/Dell/Desktop/Wordpress Theme data/4.sidebar.html",
+		"/C/Users/Dell/Desktop/Wordpress Theme data/3.header-footer",
+		"/C/Users/Dell/Desktop/Wordpress Theme data/2.nav.html",
+		"/C/Users/Dell/Desktop/Wordpress Theme data/header.html",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/header-about-us.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/sidebar.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page-about-us.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-single.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/index.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/single.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/header.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/functions.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/single.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/twentyfifteen/functions.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/content.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-page.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/sidebar.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/index.php",
+		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/footer.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/image.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/comments.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_cat.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-includes/widgets.php",
 		"/C/Users/Dell/AppData/Local/Temp/Rar$DIa0.000/cat-posts.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/list-categories-widget.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget.php",
 		"/F/ZTE/ZTE-Driver/Web_Driver/wordpress plugins/list-categories-widget.php/list-categories-widget.php",
 		"/C/Users/Dell/AppData/Local/Temp/Rar$DIa0.616/count_posts_in_cat.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-includes/taxonomy.php",
@@ -695,34 +736,28 @@
 		"/C/Users/Dell/Desktop/Markdown Notes/Laravel helpers/View.md",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/front-to-back/views/widget.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/footer.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_about.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/sass/layout/_main.scss",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/plugins/wordpress-simple widget/simple-sample-widget.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-includes/http.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/js/bootstrap-wp.js",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/js/customizer.js",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/customizer.php",
-		"/C/Users/Dell/Desktop/Markdown Notes/Wordpress.md",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/template-tags.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/minimal/ocmx/widgets/popular-posts-widget.php",
 		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/content-single.php",
 		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/content-page.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-single.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/gulpfile.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/config.rb",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_tk/content-single.php",
 		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/page.php",
 		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/archive.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_s/template-parts/content.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/image.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_s/page.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_s/single.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/front-page.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/extras.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/no-results.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-page.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/blog-details.html",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/header.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/footer.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/index.html",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page-2nd.php",
@@ -730,8 +765,6 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/nav.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/header.html",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/style.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/set-up-account.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
@@ -740,12 +773,10 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion-discussion.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_variables.scss",
 		"/E/Templates/html-templates/components/snippets/forms/file-upload.html",
-		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/_assets/2701-15/psd/php/contact.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/_assets/2701-15/psd/index.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/select-business.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav-2.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/components/_buttons.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projo.sublime-workspace",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projo.sublime-project",
@@ -764,38 +795,7 @@
 		"/C/xampp/htdocs/laravel-projects/url-shortner/app/views/layout.blade.php",
 		"/C/xampp/htdocs/laravel-projects/url-shortner/app/views/links/create.blade.php",
 		"/C/xampp/htdocs/laravel-projects/url-shortner/composer.json",
-		"/C/Users/Dell/Desktop/drgvg.md",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/database/seeds/DatabaseSeeder.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/inline/index.html",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/config/app.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/HomeController.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/WelcomeController.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/routes.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/User.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/blog/partials/post.blade.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Comment.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Comments.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/Controller.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Http/Controllers/Controller.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/database/migrations/2016_01_24_123249_create_comments_table.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/view.blade.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/index.blade.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/sass/email.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/email.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/inline/email.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/css/email.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/email.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/css/email.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/sass/style-landing-page.scss",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Providers/AppServiceProvider.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/.env.example",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/server.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/artisan",
-		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/css/app.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/css/bootstrap.min.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/ionicframwork/gvg-langing-page/uncss/out/email.css"
+		"/C/Users/Dell/Desktop/drgvg.md"
 	],
 	"find":
 	{
@@ -814,6 +814,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"heading_about_us",
+			"3",
+			"modal_add_remove_team ",
+			"Everything ",
+			"ORIGINAL POST MESSAGE",
+			"open-discussion-threads",
+			"open-discussion",
+			"Editor-editor",
+			".Editor-editor",
+			"12",
+			"img/",
+			"thum",
 			"Subscribe to Our Newsletter and Other tih5es for Business\n\n\n",
 			"2",
 			"categories",
@@ -929,19 +941,7 @@
 			"ws__tasks ",
 			"h4 {font-weight: ",
 			"ws__discuss ",
-			"ws__discuss__inner",
-			"ws__tickets__inner ",
-			".ws__tasks__inner",
-			"ws__tasks",
-			".ws__discuss",
-			"ws__tickets ",
-			"ws__tasks ",
-			"ws__discuss ",
-			"jQuery",
-			"js",
-			"h3.gform_title",
-			"color:    #000;",
-			"add_new"
+			"ws__discuss__inner"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -949,6 +949,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<?php echo  theme_root . '/'; ?>includes/img/",
 			"facebook_username",
 			"heading_about_us",
 			"<?php echo  theme_root . '/'; ?>includes/img/",
@@ -1088,6 +1089,10 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"sass/layout/_main.scss"
+			],
+			[
 				"res",
 				"sass/layout/_responsive.scss"
 			],
@@ -1102,10 +1107,6 @@
 			[
 				"var",
 				"sass/base/_variables.scss"
-			],
-			[
-				"main",
-				"sass/layout/_main.scss"
 			],
 			[
 				"nv",
