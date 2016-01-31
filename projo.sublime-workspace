@@ -668,20 +668,24 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/new-task.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
+		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page-about-us.php",
 		"/C/Users/Dell/Desktop/Markdown Notes/Wordpress.md",
 		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/woocommerce.php",
 		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/template-home-1.php",
 		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/includes/portfolio-functions/video.php",
 		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/includes/post-templates/entry-gallery.php",
 		"/F/Torrentz/Moveis/Salient v5.0 - Responsive Multi-Purpose Theme/salient/includes/header-search.php",
-		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav.html",
 		"/E/torrentz/Moveis/alertify.core.css",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_about.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_social.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
 		"/E/Templates/html-templates/components/snippets/modals window/Without Border.html",
 		"/F/ZTE/ZTE-Driver/Web_Driver/wordpress plugins/Snipts/list-categories-widget.php",
 		"/F/ZTE/ZTE-Driver/Web_Driver/wordpress plugins/Snipts/theme_widget_about.php",
@@ -708,10 +712,8 @@
 		"/C/Users/Dell/Desktop/Wordpress Theme data/header.html",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/header-about-us.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/sidebar.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page-about-us.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/content-single.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/index.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/single.php",
 		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/header.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/functions.php",
@@ -765,7 +767,6 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/nav.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/header.html",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/style.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/set-up-account.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_responsive.scss",
@@ -794,8 +795,7 @@
 		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/blog/view.blade.php",
 		"/C/xampp/htdocs/laravel-projects/url-shortner/app/views/layout.blade.php",
 		"/C/xampp/htdocs/laravel-projects/url-shortner/app/views/links/create.blade.php",
-		"/C/xampp/htdocs/laravel-projects/url-shortner/composer.json",
-		"/C/Users/Dell/Desktop/drgvg.md"
+		"/C/xampp/htdocs/laravel-projects/url-shortner/composer.json"
 	],
 	"find":
 	{
@@ -814,6 +814,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"90",
+			".open-discussion",
 			"heading_about_us",
 			"3",
 			"modal_add_remove_team ",
@@ -939,9 +941,7 @@
 			".workspace ",
 			"workspace \n",
 			"ws__tasks ",
-			"h4 {font-weight: ",
-			"ws__discuss ",
-			"ws__discuss__inner"
+			"h4 {font-weight: "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1089,6 +1089,10 @@
 		"selected_items":
 		[
 			[
+				"hel",
+				"sass/base/_helpers.scss"
+			],
+			[
 				"main",
 				"sass/layout/_main.scss"
 			],
@@ -1099,10 +1103,6 @@
 			[
 				"nav",
 				"sass/layout/_nav.scss"
-			],
-			[
-				"hel",
-				"sass/base/_helpers.scss"
 			],
 			[
 				"var",
