@@ -40,7 +40,9 @@ $('#tags').tagsInput( {
 	});
 
 
-	
+
+        $(".mCustomScrollbar").mCustomScrollbar();
+        
 });//on laod
 
 
