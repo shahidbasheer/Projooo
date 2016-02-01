@@ -673,7 +673,7 @@
 			}
 			&::-moz-placeholder { /* Mozilla Firefox 19+ */
 			   color:    #b8b8b8;
-			   opacity:  1;
+			   	opacity:  1;
 			}
 			&:-ms-input-placeholder { /* Internet Explorer 10-11 */
 			   color:    #b8b8b8;
@@ -689,7 +689,10 @@
 
 }
 
+
 .open-discussion__info {
+
+
 	background: #f2f2f2;
 	padding: 10px 20px;
 	img {display: inline-block; margin-right: 10px; }
@@ -702,16 +705,33 @@
 			text-decoration: underline;
 		}
 	}
-
+	select.form-control { background: #fff; max-width: 270px;  } 
 	.table>thead>tr>th { vertical-align: bottom; border-bottom: 0;}  
 
 	.table {
 		margin-bottom: 0;
 		padding: 0;  
 		td { padding: 0; border: 0; }
-		select { background: #fff; max-width: 209px;  } 
+		
 	}
+
+		@include breakpoint ($xs) {
+			select.form-control { margin-bottom: 10px;  max-width: 300px;  } 
+			img {    margin-top: -28px; }
+		}
+
+		@include breakpoint ($sm) {
+			select.form-control { max-width: 250px; margin-bottom: 10px;  } 
+			img {    margin-top: -28px; }
+		}
+
+		@include breakpoint ($md) {
+			select.form-control { max-width: 223px;  } 
+		}
+
 }
+
+
 .btn-cp {padding: 6px 60px !important;}
 .open-discussion__heading {
 	font-weight: bold;
@@ -899,6 +919,7 @@
 }
 
 .new-task-discussion_left {
+	min-height: 1500px; 
 	padding: 14px 20px 20px;
 	border: 1px solid #d8d8d8;
 
@@ -925,6 +946,20 @@
 
 
 	}
+
+	span.upload {
+	    margin-right: 4px;
+	    margin-left: 4px;
+	    font-size: 14px;
+	    color: #0095ff;
+	}
+
+	input {display: inline-block;
+    	max-width: 210px;}
+
+    	.form-group {
+    		margin-bottom: 0; 
+    	}
 	
 	.notification {
 		background: #ff0000;
@@ -992,6 +1027,7 @@
 }
 
 .new-task-discussion_right {
+	min-height: 1500px; 
 	background: #fbfbfb; 
 	position: relative;
 	padding: 20px; 
@@ -1009,6 +1045,22 @@
 
 	.upload-btn {color: #2626d1; text-decoration: underline; margin-bottom: 10px; display: inline-block;  font-style: italic; font-weight: bold; }
 	
+		span.upload {
+		    margin-right: 4px;
+		    margin-left: 4px;
+		    
+		    font-size: 14px;
+		    color: #0095ff;
+		}
+
+		input {display: inline-block;
+	    	max-width: 210px;}
+
+	    	.form-group {
+	    		margin-bottom: 0; 
+	    	}
+	
+
 	.nofitcation_left{
 		top: 12px; 
 		left: -8px;
@@ -1037,7 +1089,423 @@
     			
     	.tag {min-width: 86px; display: inline-block; }
 
+
+
 	}
 	span.text {margin-left: 5px; }
 
+				
 }
+
+
+
+
+.app-setting-wraper {
+	padding: 0 40px;
+	
+}
+.app-setting__innner {
+	padding: 0 15px; 
+	border: 1px solid #ddd;
+	    min-height: 1001px;
+}
+
+.app-setting__sidebar {
+	min-width: 22%;
+	float: left;
+	height: 100%; 
+	min-height: 1001px;
+	border-right: 1px solid #ddd; 
+	h5 { background: #f0f0f0; padding: 4px; display: inline-block; width:100%; margin: 0; 
+		padding: 10px 20px;
+		color: #000;
+		font-weight: bold; 
+	}
+
+	ul {
+			li {
+				a {
+					padding: 6px 10px; 
+					font-size: 13px; 
+					font-weight: bold;
+					color: #000; 
+					&:hover, &:focus {
+						text-decoration: none; 
+					}
+
+				}
+
+				border-bottom: 1px solid #ddd;   
+				padding: 6px 10px;
+
+			}
+		} 
+}
+
+.app-setting__main {
+	//padding:10px 20px  10px 220px ;
+	width: 78%; 
+	float: left; 
+
+	header {
+		color: #000; 
+		padding:10px 20px 20px;
+
+	}
+		
+		.table-todo>thead>tr>th { 
+			background: #f0f0f0;  padding:4px 20px; width: 100%;
+			vertical-align: bottom; border-bottom: 0;width: 100%;
+
+		}  	
+		.table-todo {
+			width: 100%;
+			margin-bottom: 80px; 
+
+			a {
+				color: blue;
+				text-decoration: underline; 
+				font-size: .9em; 
+			}
+			td {
+					padding: 0; 
+					border-bottom: 1px solid #ddd; 
+					padding: 8px 20px; 
+					border-top:0; 
+					&:last-child { text-align: right; }
+				}
+			span.cat{
+				display: inline-block;
+				width: 14px;
+				height: 14px;
+				background: #000; 
+				margin-right: 4px;
+
+			}
+			span.task {
+				display: inline-block;
+				vertical-align: text-bottom;
+				font-weight: bold; 
+
+			}
+		}
+
+		footer {
+			color: #000; 
+			padding:10px 20px 20px;
+			.btn {padding: 6px 48px; }
+		}
+
+
+		.app__profile {
+			padding:10px 20px 20px;
+			color: #000; 
+			h4 {font-weight: bold; margin-top: 4px; }
+			.profile-detial {
+				width: 80%;
+
+			}
+				@include breakpoint ($md) {
+					.profile-detial {
+						width: 75%;
+			
+						}
+				}
+
+				@include breakpoint ($sm) {
+					.profile-detial {
+						width: 70%;
+			
+						}
+				}
+			.media-object {
+				margin-right: 20px;
+			}
+			.heading	{
+				p { display: inline-block;  font-size: 18px; color: #7F7878; }
+			}
+
+		}
+	
+	
+}
+
+.profile-setting {
+	padding:10px 20px 20px;
+	.form-control {border-radius: 0; }
+	
+	.btn {padding: 6px 48px; }
+
+	label {
+		color: #525252;
+		font-weight: normal; 
+
+	}
+}
+
+#modal-work-flow-status {
+	.modal-title {
+		color: #000;
+	}
+	.modal-content {
+      
+      border-radius: 0px;
+      outline: 0;
+      -webkit-box-shadow:none;
+              box-shadow:none;
+    }
+    .modal-body {
+	    position: relative;
+	    padding: 15px;
+	    padding-bottom: 130px;
+	}	
+    .form-control {
+    	border-radius: 0; 
+    	margin-bottom: 24px;
+    }
+    .btn {padding: 6px 48px;}
+}
+
+.setting__billing {
+	width: 78%; 
+	float: left;
+		@include breakpoint ($sm) {
+	 		width: 75%; 
+	 	} 
+	header {
+		color: #000; 
+		padding:10px 20px 20px;
+
+	}
+
+	footer {
+			color: #000; 
+			padding:10px 20px 20px;
+			.btn {padding: 6px 48px; }
+		}
+
+
+
+	.table-todo>thead>tr>th { 
+				background: #f0f0f0;  padding:4px 20px; width: 100%;
+				vertical-align: bottom; border-bottom: 0;width: 100%;
+
+			}  	
+			.table-todo {
+				width: 100%;
+				margin-bottom: 80px; 
+
+				td {
+						vertical-align: middle;
+						padding: 0; 
+						border-bottom: 1px solid #ddd; 
+						padding: 14px 20px; 
+						border-top:0; 
+						&:last-child { text-align: right; }
+					}
+
+				p {
+					margin-bottom: 0;
+					font-size: 16px; 
+				}
+				.pending {
+					color: $red;
+					font-weight: bold;
+					font-size: 14px; 
+					a {
+						color: $red;
+						font-size: 14px; 
+						font-weight: bold;
+						text-decoration: underline;
+						&:hover , &:focus {
+							color: darken($red, 5%);
+						}
+					}
+
+				}
+
+				.paid {
+					font-weight: bold;
+					font-size: 14px; 
+					color: $green;	
+					
+					
+					
+				}
+				a.invoice-btn {
+					font-size: 14px; 
+						color: #0011b6;	
+						font-weight: bold;
+						text-decoration: underline;
+						&:hover , &:focus {
+							color: darken(#0011b6, 5%);
+						}
+				}
+				
+			}
+
+}
+
+
+
+
+//invoice Modal
+#invoice-modal {
+
+	.invoce-header {
+		p {margin-bottom: 0; }
+	}
+
+	.modal-header {
+	 
+	    margin-left: -10px;
+	       margin-right: -10px;
+	}
+
+	.close {
+	     
+	    span {
+	    		font-size: 12px; 
+	    }
+	}
+
+	.modal-content {
+	      
+	      border-radius: 0px;
+	      outline: 0;
+	      -webkit-box-shadow:none;
+	              box-shadow:none;
+	       padding: 10px; 
+	    }
+		
+		h4, h5 {color: #000 ; font-weight: bold; }
+
+		.table {margin-top: 20px; }
+
+
+	    .table>thead>tr>th { vertical-align: bottom; border-bottom: 0; border-top: 1px solid #ddd; border-bottom: 0;
+	    						padding: 14px 24px; 
+						    	&:first-child {
+									border-left: 1px solid #ddd;
+						    	}
+						    	&:last-child {
+									border-right: 1px solid #ddd; 
+						    	}
+	
+	    }  
+	    .table tbody td { 
+	    	padding: 14px 24px; 
+	    	&:first-child {
+				border-left: 1px solid #ddd;
+	    	}
+	    	&:last-child {
+				border-right: 1px solid #ddd; 
+	    	}
+	    	
+	    	
+	    }
+	    .table tr {
+	    	&:last-child {
+	    		td {
+	    			margin-top: 10px; 
+	    		}
+	    	}
+	    }
+	    .t-body td {
+	    	height: 200px; 
+	    }
+
+	    .coupen td {
+
+	    }
+	    .total td {background: #fdec56; font-weight: bold;  }
+
+	    footer {
+	    	max-width: 600px; 
+	    	display: block;
+	    	margin-right: auto;
+	    	margin-left: auto;
+
+	    	.bnt-payment {
+		    	color: blue;
+		    	text-decoration: underline;
+		    	font-size: 26px; 
+		    	text-align: center; 
+		    	
+
+	    	}
+	    	p  {
+	    		margin-top: 16px;
+	    		font-size: 12px; 
+	    		color: #ddd; 
+	    	}
+
+	    }
+
+
+}
+
+.app-setting__team-m {
+
+	//padding:10px 20px  10px 220px ;
+	width: 78%; 
+	float: left; 
+
+	header {
+		color: #000; 
+		padding:10px 20px 20px;
+
+	}
+	
+	.table-todo>thead>tr>th { 
+		background: #f0f0f0;  padding:4px 20px; width: 100%;
+		vertical-align: bottom; border-bottom: 0;width: 100%;
+
+	}  	
+	.table-todo {
+		width: 100%;
+		margin-bottom: 80px;
+
+		img,  {display: inline-block; vertical-align: baseline; width: 30px; height: 30px;  } 
+		img {margin-right: 10px; }
+		h4 {margin-bottom: 0; }
+
+		a {
+			color: blue;
+			text-decoration: underline; 
+			font-size: .9em; 
+		}
+		td {
+				padding: 0; 
+				border-bottom: 1px solid #ddd; 
+				padding: 8px 20px; 
+				border-top:0; 
+				vertical-align: middle; 
+				&:last-child { text-align: right; }
+			}
+		.active {
+			color: $green;
+
+		}
+		.inactive {
+			color: #ddd; 
+		}
+
+		.user-status {
+			background: $green;
+			padding: 6px; 
+			color: #fff; 
+			font-weight: bold; 
+		}
+		
+	}
+
+
+	footer {
+			color: #000; 
+			padding:10px 20px 20px;
+			.btn {padding: 6px 48px; }
+		}
+
+
+}/// end

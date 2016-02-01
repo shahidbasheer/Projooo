@@ -4,8 +4,68 @@
 		"selected_items":
 		[
 			[
+				"miw",
+				"min-width"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bsinpu",
+				"bs3-input:url	bs3-input-url"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
 				"pad",
-				"padding-left"
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"fonts",
+				"font-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"mr",
+				"margin-right"
+			],
+			[
+				"bor",
+				"border"
 			],
 			[
 				"isar",
@@ -40,24 +100,8 @@
 				"get_header"
 			],
 			[
-				"mr",
-				"margin"
-			],
-			[
 				"form",
 				"form-group"
-			],
-			[
-				"marg",
-				"margin-bottom"
-			],
-			[
-				"bor",
-				"border"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"htl",
@@ -70,10 +114,6 @@
 			[
 				"p",
 				"padding"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"date",
@@ -98,10 +138,6 @@
 			[
 				"te",
 				"text-align"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"bord",
@@ -132,20 +168,12 @@
 				"min-width"
 			],
 			[
-				"wid",
-				"width30"
-			],
-			[
 				"boe",
 				"border-top"
 			],
 			[
 				"bnt",
 				"btn-default	 bootstrap.min.css"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"m-t",
@@ -192,10 +220,6 @@
 				"pull-right	 bootstrap.min.css"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"contin",
 				"container-fluid	 bootstrap.min.css"
 			],
@@ -206,10 +230,6 @@
 			[
 				"li",
 				"list-inline	 bootstrap.min.css"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"c",
@@ -494,26 +514,6 @@
 			[
 				"ino",
 				"ionicframwork"
-			],
-			[
-				"git",
-				"gitignore"
-			],
-			[
-				"bo",
-				"border-bg"
-			],
-			[
-				"mag",
-				"margin-left"
-			],
-			[
-				"tes",
-				"te-ds	text-emphasis: disc;"
-			],
-			[
-				"borr",
-				"border-radius"
 			]
 		]
 	},
@@ -668,10 +668,32 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/new-task.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/footer.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_variables.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/sass/base/_variables.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/main.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/header.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
+		"/C/Users/Dell/AppData/Roaming/Sublime Text 2/Packages/User/breackpoint.sublime-snippet",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/new-task.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_responsive.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/_breakpoint.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/breakpoint/_respond-to.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/breakpoint/_parsers.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/breakpoint/_no-query.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/breakpoint/_helpers.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/breakpoint/_context.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/style.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/new-task-discussion.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
+		"/C/Users/Dell/Desktop/Markdown Notes/git commands.md",
 		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
+		"/C/Users/Dell/Desktop/Markdown Notes/heroku.md",
+		"/C/Users/Dell/Desktop/Markdown Notes/heroku commanda.md",
+		"/C/xampp/htdocs/urdu-stemmer/app/Http/routes.php",
+		"/C/xampp/htdocs/urdu-stemmer/.env",
+		"/E/Software/Web/bootstrap/bootstraptemplate/blog-pos/blog-post.html",
+		"/E/Templates/html-templates/components/snippets/table/table.html",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/page-about-us.php",
 		"/C/Users/Dell/Desktop/Markdown Notes/Wordpress.md",
@@ -769,33 +791,11 @@
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/style.css",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/set-up-account.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_responsive.scss",
 		"/C/Users/Dell/AppData/Local/Temp/Rar$DIa0.765/functions.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion-discussion.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_variables.scss",
 		"/E/Templates/html-templates/components/snippets/forms/file-upload.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/_assets/2701-15/psd/php/contact.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/_assets/2701-15/psd/index.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/select-business.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/nav-2.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/components/_buttons.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projo.sublime-workspace",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projo.sublime-project",
-		"/C/xampp/htdocs/my_gulp_work_flow/projoo-wordpress/gulpfile.js",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/blog/layouts/master.blade.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/nav.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Http/Controllers/BlogController.php",
-		"/C/Users/Dell/Desktop/githubmarkdown.html",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/config/database.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/app/Post.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/.env",
-		"/C/Users/Dell/Desktop/View.md",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/blog/index.blade.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/storage/framework/views/8dcfeb9f7900d73236bab30c22be5d2aa5a6d855.php",
-		"/C/Users/Dell/AppData/Roaming/Composer/vendor/bin/blog/resources/views/blog/view.blade.php",
-		"/C/xampp/htdocs/laravel-projects/url-shortner/app/views/layout.blade.php",
-		"/C/xampp/htdocs/laravel-projects/url-shortner/app/views/links/create.blade.php",
-		"/C/xampp/htdocs/laravel-projects/url-shortner/composer.json"
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/_assets/2701-15/psd/index.html"
 	],
 	"find":
 	{
@@ -814,6 +814,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"discussion__info ",
+			"open-discussion__info",
+			"xm",
+			"m",
+			"3",
+			"9",
+			"discussion__info ",
+			".sub-heading",
+			"new-task-discussion",
+			"40px",
+			"udpate-status-block",
+			"bordered",
+			"new-task-discussion",
+			"media-heading\n",
+			"media-heading",
+			"span",
+			"h2",
+			"reset",
+			"9",
+			"2px",
+			"open-discussion__info",
+			"n Member to T",
 			"90",
 			".open-discussion",
 			"heading_about_us",
@@ -919,29 +941,7 @@
 			"translateY",
 			", 0",
 			"translate",
-			"translateX",
-			"-50",
-			"translateY(-50%)",
-			" ease-out",
-			"2s",
-			"1s",
-			"inlie-block",
-			"3em",
-			"modal",
-			"ws__tickets ",
-			"ws__notify ",
-			"#add_new_workspace h4",
-			"add_new",
-			"my projects",
-			"add_new-teammember",
-			"<a href=\"\"><i class=\"gl",
-			".ps__notify",
-			"add_new ",
-			".ws__notify",
-			".workspace ",
-			"workspace \n",
-			"ws__tasks ",
-			"h4 {font-weight: "
+			"translateX"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1089,24 +1089,36 @@
 		"selected_items":
 		[
 			[
-				"hel",
-				"sass/base/_helpers.scss"
-			],
-			[
-				"main",
-				"sass/layout/_main.scss"
+				"var",
+				"sass/base/_variables.scss"
 			],
 			[
 				"res",
 				"sass/layout/_responsive.scss"
 			],
 			[
-				"nav",
-				"sass/layout/_nav.scss"
+				"resp",
+				"sass/layout/_responsive.scss"
 			],
 			[
-				"var",
-				"sass/base/_variables.scss"
+				"main",
+				"sass/layout/_main.scss"
+			],
+			[
+				"head",
+				"html/html_Moudles/header.html"
+			],
+			[
+				"foot",
+				"html/html_Moudles/footer.html"
+			],
+			[
+				"hel",
+				"sass/base/_helpers.scss"
+			],
+			[
+				"nav",
+				"sass/layout/_nav.scss"
 			],
 			[
 				"nv",
@@ -1119,10 +1131,6 @@
 			[
 				"rou",
 				"app/Http/routes.php"
-			],
-			[
-				"head",
-				"html/html_Moudles/header.html"
 			],
 			[
 				"com",
@@ -1150,10 +1158,6 @@
 			],
 			[
 				"foo",
-				"html/html_Moudles/footer.html"
-			],
-			[
-				"foot",
 				"html/html_Moudles/footer.html"
 			],
 			[
@@ -1211,10 +1215,6 @@
 			[
 				"f",
 				"html/html_Moudles/footer.html"
-			],
-			[
-				"resp",
-				"sass/layout/_responsive.scss"
 			],
 			[
 				"gl",

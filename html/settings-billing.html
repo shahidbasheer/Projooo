@@ -1,0 +1,180 @@
+        <!-- @include html_Moudles/header.html -->
+
+        <!-- @include html_Moudles/nav.html -->
+		
+		<div class="container-fluid">
+			<div class="app-setting-wraper">
+				<h4>App Setting</h4>
+				<div class="app-setting__innner">
+					
+					<div class="row">
+						<div class="app-setting__sidebar">
+							<h5>Quick Menu</h5>
+							<ul class="list-unstyled">
+								<li><a href="#">General Settings</a></li>
+								<li><a href="#">App Configuration</a></li>
+								<li><a href="#">Staff Members</a></li>
+								<li><a href="#">Administrator</a></li>
+								<li><a href="#">Billing & Invoice</a></li>
+								<li><a href="#">Change Password</a></li>
+								<li><a href="#">Update Profile</a></li>
+								<li><a href="#">Logoff</a></li>
+							</ul>
+						</div>					
+						<div class="setting__billing">
+							<header>
+								<h4>App Configuration</h4>
+								<p>Configure your workflow for TO DO List and Tickets</p>
+							</header>
+
+							<table class="table table-todo">
+                                <thead>
+                                 <tr>
+                                   <th colspan="3">ACCOUNT IS <span class="green">ACTIVE</span></th>                                   
+                                 </tr>
+                               </thead>
+                               <tbody>
+                                 
+                                 <tr>
+                                   <td>
+                                   		<p>Invoice Number : 355477854 ($11.99)</p>
+                                      <p>10th May 2015</p>
+                                   </td>
+                                   <td>
+                                   	<p class="pending">Pending - <a href="">Click here to make payment</a></p>
+                                   </td>
+                                   <td>
+                                      <p><a href=""  class="invoice-btn"  data-toggle="modal" data-target="#invoice-modal">View Invoice</a></p>
+                                   </td>                            
+                                 </tr>
+
+                                   <tr>
+                                   <td>
+                                      <p>Invoice Number : 355477854 ($11.99)</p>
+                                      <p>10th May 2015</p>
+                                   </td>
+                                   <td>
+                                    <p class="paid">Paid - (Ref: 454634156) </p>
+                                   </td>
+                                   <td>
+                                      <p><a href=""  class="invoice-btn" data-toggle="modal" data-target="#invoice-modal">View Invoice</a></p>
+                                   </td>                            
+                                 </tr>
+
+                               </tbody>
+                             </table>
+
+                            <footer>
+                              <button type="button" class="btn btn-success" data-dismiss="modal">Save Update</button>  
+                            </footer>
+						</div>
+
+					</div> <!-- row -->
+				</div> <!-- app-setting-wraper -->
+			</div> <!-- app-setting-wraper -->
+
+			<a href="#" class="back-to-top">Back to top</a>
+
+		</div> <!-- container -->
+
+		
+		
+
+
+		<footer class="site-footer">
+			<span>Project: </span>
+			<ul class="list-inline">
+				<li><a href="#">10 Active</a></li>
+				<li><a href="#">10 Planning</a></li>
+				<li><a href="#">10 Archive</a></li>
+			</ul>
+			<p class="refer">Refer a Friend Get Additional month Free</p>
+			<p class="copywrite pull-right">
+				Copyright 2016
+			</p>
+		</footer>
+
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#invoice-modal">
+                    Without Border
+                    </button>
+					<!-- Modal -->
+  							<div class="modal fade" id="invoice-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  							  <div class="modal-dialog" role="document" style="max-width: 800px; width: 100%; ">
+  							    <div class="modal-content">
+  							      <div class="modal-header">
+  							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X-CLOSE</span>
+                        </button>
+  							        <h4 class="modal-title" id="myModalLabel">Invoice</h4>
+  							      </div>
+  							      <div class="modal-body">
+  							       
+                       <div class="invoce-header">
+                            <div class="row">
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <h4>Your Billing Address</h4>
+                                <p>299 Retreate Avenu</p>
+                                <p>Bimingham, AL 35230</p>
+                              </div>
+
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+                               <div class="pull-right">
+                                 <h4>Date of Invoice: 10th May 2014</h4>
+                                 <p>
+                                   <strong>Status</strong>
+                                   <span class="green">Paid or</span>
+                                   <span class="red">Penidng</span>  </p>
+                               </div>
+                              </div>
+                            </div>  <!-- row -->     
+                       </div>  <!-- invoce-header -->
+
+                       <div class="invoice-table">
+                          
+                          <table class="table">
+                            <thead>
+                              <th>Items Descriptions</th>
+                              <th class="text-right">Cost</th>
+                            </thead>
+                            
+                            <tbody>
+                             
+                              <tr class="t-body">
+                                <td class="">Subscrttiopn: May 2015</td>
+                                <td class="text-right">$11.99</td>
+                              </tr>
+
+                               <tr class="">
+                                <td class="">Coupen : XYZ</td>
+                                <td class="text-right">-$2.99</td>
+                              </tr>
+
+                             
+                              <tr class="total">
+                                <td> Total Payment  </td>
+                                <td  class="text-right"> $ 9.90 </td>
+                              </tr>
+
+                            </tbody>                     
+
+                          </table>
+
+                         <footer class="text-center">
+                           <a href="" class="bnt-payment">Click here Make Payment Online</a>
+
+                           <p class="footer-note">
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                           </p>
+                         </footer>
+                         
+                       </div> <!-- table --> 							           
+  							      </div>
+  				    
+  							     
+  							    </div>
+  							  </div>
+  							</div>
+  						<!-- Without Border -->
+    
+
+         <!-- @include html_Moudles/footer.html -->
