@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-width"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"bscol",
+				"bs3-col:6	bs3-col-6"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"Sel",
+				"Select"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"th",
+				"thead"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"bsc",
+				"bs3-col	bs3-col"
+			],
+			[
+				"il",
+				"inline-block"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bsin",
+				"bs3-input:text	bs3-input-text"
+			],
+			[
+				"MARG",
+				"margin-bottom"
+			],
+			[
 				"miw",
 				"min-width"
 			],
@@ -12,16 +88,8 @@
 				"margin-bottom"
 			],
 			[
-				"marg",
-				"margin-bottom"
-			],
-			[
 				"bsinpu",
 				"bs3-input:url	bs3-input-url"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"pad",
@@ -30,10 +98,6 @@
 			[
 				"wid",
 				"width"
-			],
-			[
-				"font",
-				"font-style"
 			],
 			[
 				"padd",
@@ -56,16 +120,8 @@
 				"text-decoration"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"mr",
 				"margin-right"
-			],
-			[
-				"bor",
-				"border"
 			],
 			[
 				"isar",
@@ -88,10 +144,6 @@
 				"is_home"
 			],
 			[
-				"tex",
-				"text-transform"
-			],
-			[
 				"get_theme",
 				"get_theme_root_uri"
 			],
@@ -100,16 +152,8 @@
 				"get_header"
 			],
 			[
-				"form",
-				"form-group"
-			],
-			[
 				"htl",
 				"htm5-local	html-snippet-for-local-snippet"
-			],
-			[
-				"bsc",
-				"bs3-col:9	bs3-col-9"
 			],
 			[
 				"p",
@@ -140,10 +184,6 @@
 				"text-align"
 			],
 			[
-				"bord",
-				"border"
-			],
-			[
 				"pos",
 				"pos	position"
 			],
@@ -162,10 +202,6 @@
 			[
 				"con",
 				"console"
-			],
-			[
-				"min",
-				"min-width"
 			],
 			[
 				"boe",
@@ -340,10 +376,6 @@
 				"cur:p	cursor:pointer"
 			],
 			[
-				"borde",
-				"border-radius"
-			],
-			[
 				"mari",
 				"margin"
 			],
@@ -482,38 +514,6 @@
 			[
 				"se",
 				"service-listing"
-			],
-			[
-				"pull-",
-				"pull-right"
-			],
-			[
-				"inlin",
-				"inline-block"
-			],
-			[
-				"me",
-				"megaMenuResize"
-			],
-			[
-				"sett",
-				"setting-wrapper"
-			],
-			[
-				"m-",
-				"m-bottom-30"
-			],
-			[
-				"im",
-				"important"
-			],
-			[
-				"magin",
-				"margin-top"
-			],
-			[
-				"ino",
-				"ionicframwork"
 			]
 		]
 	},
@@ -523,9 +523,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 311.0,
+		"height": 145.0,
 		"selected_items":
 		[
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
 			[
 				"mark",
 				"Set Syntax: Markdown"
@@ -668,14 +672,43 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/footer.html",
+		"/C/xampp/htdocs/url_shortner/app/Url.php",
+		"/C/Users/Dell/Desktop/Markdown Notes/Laravel helpers/Auth.md",
+		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/app-configuraiton.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/app-setting__sidebar.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_variables.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/settings-billing.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_globals.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/settings-update-profile.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/settings-administratorinfo.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/settings-teammember.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/components/_buttons.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/sass/base/_globals.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/settings-billing-makepayment-completed.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/set-up-account.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/select-business.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/project-workspace.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion-thread.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/new-task.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/new-task-discussion.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/dashboard.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/login.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/signup.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_footer.scss",
+		"/C/xampp/htdocs/urdu-stemmer/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/xampp/htdocs/urdu-stemmer/vendor/laravel/framework/src/Illuminate/Database/Eloquent/SoftDeletes.php",
+		"/C/xampp/htdocs/urdu-stemmer/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/C/Users/Dell/Desktop/Markdown Notes/Laravel helpers/controller.md",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/footer.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/sass/base/_variables.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/main.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/html_Moudles/header.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
 		"/C/Users/Dell/AppData/Roaming/Sublime Text 2/Packages/User/breackpoint.sublime-snippet",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/new-task.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_responsive.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/_breakpoint.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/breakpoint/_respond-to.scss",
@@ -684,10 +717,7 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/breakpoint/_helpers.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/breakpoint/_context.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/style.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/new-task-discussion.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/base/_helpers.scss",
 		"/C/Users/Dell/Desktop/Markdown Notes/git commands.md",
-		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
 		"/C/Users/Dell/Desktop/Markdown Notes/heroku.md",
 		"/C/Users/Dell/Desktop/Markdown Notes/heroku commanda.md",
 		"/C/xampp/htdocs/urdu-stemmer/app/Http/routes.php",
@@ -707,7 +737,6 @@
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_about.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/theme_widget_social.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion.html",
 		"/E/Templates/html-templates/components/snippets/modals window/Without Border.html",
 		"/F/ZTE/ZTE-Driver/Web_Driver/wordpress plugins/Snipts/list-categories-widget.php",
 		"/F/ZTE/ZTE-Driver/Web_Driver/wordpress plugins/Snipts/theme_widget_about.php",
@@ -719,7 +748,6 @@
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/header.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/archive.php",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/blog.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion-thread.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/css/new.css",
 		"/E/Templates/html-templates/components/snippets/forms/custome-select/custome-select.html",
 		"/E/Templates/html-templates/components/snippets/css-tricks/Performance Budget Builder.html",
@@ -771,31 +799,7 @@
 		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/content-single.php",
 		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/content-page.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/config.rb",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_tk/content-single.php",
-		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/page.php",
-		"/E/Software/Web/Wordpress/Theme/_tk Theme/_tk Theme/archive.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_s/template-parts/content.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_s/page.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_s/single.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/front-page.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/includes/extras.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/no-results.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/blog-details.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/footer.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/index.html",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/page-landing-page-2nd.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/functions.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/nav.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/html/html_Moudles/header.html",
-		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/style.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/set-up-account.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_nav.scss",
-		"/C/Users/Dell/AppData/Local/Temp/Rar$DIa0.765/functions.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/html/open-discussion-discussion.html",
-		"/E/Templates/html-templates/components/snippets/forms/file-upload.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/_assets/2701-15/psd/php/contact.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/_assets/2701-15/psd/index.html"
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/config.rb"
 	],
 	"find":
 	{
@@ -814,6 +818,55 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"app-setting-wraper",
+			".app-setting__sidebar",
+			"ddd",
+			"yellow",
+			"rgb",
+			"app-setting__sidebar",
+			"placeholder",
+			"6",
+			"invoice-modal",
+			"h4",
+			"modal-work-flow-status",
+			"style=\" background: red; \"",
+			"cat",
+			"style=\" background: red; \"",
+			"cat",
+			".status",
+			"m-b-20",
+			"settings-teammember",
+			"profile-setting",
+			"app-setting__main",
+			"setting__billing ",
+			".table-todo>thead>tr>th {",
+			"app-setting__team-m",
+			"1em",
+			"http://fiberelephant.com/",
+			"signup__inner",
+			"h5",
+			"}	",
+			"table-todo",
+			"invoce-header",
+			"text-left",
+			"8",
+			"p",
+			"blue",
+			"darken",
+			"blue",
+			"14",
+			"span",
+			"table-todo",
+			"8",
+			"edit",
+			"span",
+			"div",
+			"app-setting__innner",
+			"span",
+			"12",
+			"h2",
+			"hidden-xs",
+			"open-discussion__info",
 			"discussion__info ",
 			"open-discussion__info",
 			"xm",
@@ -892,56 +945,7 @@
 			"open-discussion__heading",
 			"New Discussio",
 			"span",
-			"open-discussion-threads",
-			"9",
-			"h4",
-			"ddd",
-			"909",
-			"no",
-			"h2",
-			"add_new_workspace",
-			"10",
-			"signup__inner",
-			"$view",
-			"content",
-			"img/",
-			"View",
-			"Losing your hair?\n",
-			"You CAN get it b",
-			"You CAN get it back!",
-			"inline",
-			"padding: 30px 0; ",
-			"uncs",
-			"ffffff",
-			"h2",
-			"slider-left-banner",
-			"h4",
-			"h5",
-			"hair los",
-			"hiar loss",
-			".lp__appointmetn-bottom .treatment-block i",
-			"treatment-block",
-			"lp__before-and-afte",
-			"#landing-form",
-			"#landing-form  ",
-			"#landing-form",
-			"100px",
-			"12",
-			"Front_To_Back",
-			"col-sm-6",
-			"php",
-			"out",
-			"ease-in-out",
-			"ease-out;",
-			" ease-out;",
-			"ease-out",
-			"5s",
-			"3s",
-			"-100",
-			"translateY",
-			", 0",
-			"translate",
-			"translateX"
+			"open-discussion-threads"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1093,6 +1097,30 @@
 				"sass/base/_variables.scss"
 			],
 			[
+				"but",
+				"sass/components/_buttons.scss"
+			],
+			[
+				"main",
+				"sass/layout/_main.scss"
+			],
+			[
+				"amin",
+				"html/settings-administratorinfo.html"
+			],
+			[
+				"gl",
+				"sass/base/_globals.scss"
+			],
+			[
+				"hel",
+				"sass/base/_helpers.scss"
+			],
+			[
+				"foo",
+				"sass/layout/_footer.scss"
+			],
+			[
 				"res",
 				"sass/layout/_responsive.scss"
 			],
@@ -1101,20 +1129,12 @@
 				"sass/layout/_responsive.scss"
 			],
 			[
-				"main",
-				"sass/layout/_main.scss"
-			],
-			[
 				"head",
 				"html/html_Moudles/header.html"
 			],
 			[
 				"foot",
 				"html/html_Moudles/footer.html"
-			],
-			[
-				"hel",
-				"sass/base/_helpers.scss"
 			],
 			[
 				"nav",
@@ -1153,14 +1173,6 @@
 				"sass/style.scss"
 			],
 			[
-				"amin",
-				"js/i18n/defaults-ar_AR.min.js"
-			],
-			[
-				"foo",
-				"html/html_Moudles/footer.html"
-			],
-			[
 				"mai",
 				"sass/layout/_main.scss"
 			],
@@ -1171,10 +1183,6 @@
 			[
 				"mainj",
 				"js/main.js"
-			],
-			[
-				"but",
-				"sass/components/_buttons.scss"
 			],
 			[
 				"butn",
@@ -1215,10 +1223,6 @@
 			[
 				"f",
 				"html/html_Moudles/footer.html"
-			],
-			[
-				"gl",
-				"sass/base/_globals.scss"
 			],
 			[
 				"btt",
