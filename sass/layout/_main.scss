@@ -1154,8 +1154,9 @@
 	}
 		
 		.table-todo>thead>tr>th { 
-			background: #f0f0f0;  padding:4px 20px; width: 100%;
+			background: #f0f0f0;  padding:6px 20px; width: 100%;
 			vertical-align: bottom; border-bottom: 0;width: 100%;
+			color: #000;
 
 		}  	
 		.table-todo {
@@ -1165,7 +1166,8 @@
 			a {
 				color: blue;
 				text-decoration: underline; 
-				font-size: .9em; 
+				font-size: 1em;
+				font-weight: bold;   
 			}
 			td {
 					padding: 0; 
@@ -1287,8 +1289,9 @@
 
 
 	.table-todo>thead>tr>th { 
-				background: #f0f0f0;  padding:4px 20px; width: 100%;
+				background: #f0f0f0;  padding:6px 20px; width: 100%;
 				vertical-align: bottom; border-bottom: 0;width: 100%;
+				color: #000; 
 
 			}  	
 			.table-todo {
@@ -1454,17 +1457,38 @@
 	header {
 		color: #000; 
 		padding:10px 20px 20px;
+		h4 {font-weight: bold; }
+		p {display: inline-block; }
+		a {
+				color: blue;
+				text-decoration: underline; 
+				font-size: 1em;
+				margin-right: 6px;
+				font-weight: bold;
+				float: right;  
+		}
+			@include breakpoint ($sm) {
+				a {
+					float: none;
+					display: block;  
+				}
+			}
 
 	}
+
 	
 	.table-todo>thead>tr>th { 
-		background: #f0f0f0;  padding:4px 20px; width: 100%;
+		background: #f0f0f0;  padding:6px 20px; width: 100%;
 		vertical-align: bottom; border-bottom: 0;width: 100%;
+		color: #000; 
 
 	}  	
 	.table-todo {
 		width: 100%;
 		margin-bottom: 80px;
+		min-height: .01%;
+  		overflow-x: scroll;
+    	min-width: 800px;
 
 		img,  {display: inline-block; vertical-align: baseline; width: 30px; height: 30px;  } 
 		img {margin-right: 10px; }
@@ -1473,29 +1497,38 @@
 		a {
 			color: blue;
 			text-decoration: underline; 
-			font-size: .9em; 
+			font-size: 1em;
+			margin-right: 6px;
+			font-weight: bold;  
 		}
 		td {
-				padding: 0; 
+				
 				border-bottom: 1px solid #ddd; 
-				padding: 8px 20px; 
+				padding: 14px 20px; 
 				border-top:0; 
 				vertical-align: middle; 
 				&:last-child { text-align: right; }
 			}
 		.active {
-			color: $green;
+			color: #007000;
+			font-size: 1.2em;
+			font-weight: bold; 
 
 		}
 		.inactive {
-			color: #ddd; 
+			color: #636363; 
+			font-size: 1.2em;
+			font-weight: bold; 
 		}
 
 		.user-status {
-			background: $green;
-			padding: 6px; 
+			background: #007000;
+			padding: 8px 14px; 
 			color: #fff; 
 			font-weight: bold; 
+		}
+		.inline-block {
+			span {font-size: 1.2em; margin-right: 12px; }
 		}
 		
 	}
