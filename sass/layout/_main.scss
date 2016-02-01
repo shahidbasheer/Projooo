@@ -1646,3 +1646,44 @@
 
 
 }/// end
+
+#add-team-member {
+	.close {
+		   color: #1F1A1A;   
+		    span {
+		    		font-size: 12px; 
+		    }
+		}
+	.form-control {border-radius: 0; height: 38px;  }
+
+	.checkbox-inline { 
+		 margin-right: 24px;
+		 margin-bottom: 6px;
+		 color: #474747; 
+	}
+
+	.checkbox-inline+.checkbox-inline {    	
+     margin-left: 0;
+
+	}
+
+	label {
+		color: #474747; 
+	}
+
+	.modal-content {
+      
+      border-radius: 0px;
+      outline: 0;
+      -webkit-box-shadow:none;
+              box-shadow:none;
+    }
+    .modal-header {
+	    min-height: 16.43px;
+	    padding: 15px 30px;
+	    color: #000; 
+	}
+
+	.btn {border-radius: 21px;}
+}
+
