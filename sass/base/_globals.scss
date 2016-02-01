@@ -4,3 +4,47 @@
  * ----------------------------------------------------------------------------------------
  */
  
+
+
+ /* Font-Face */
+	@font-face {
+	font-family: 'AvenirLTStd';
+	src: url(../fonts/AvenirLTStd-Book.otf);
+	       
+	}
+	@font-face {
+	font-family: 'AvenirLTStd';
+	src: url(../fonts/AvenirLTStd-Heavy.otf);
+	 font-weight: bold;
+       
+	}
+
+	@font-face {
+	font-family: 'AvenirLTStd';
+	src: url(../fonts/AvenirLTStd-Black.otf);
+	font-weight: 700;
+	       
+	}
+
+	@font-face {
+	font-family: 'AvenirLTStd';
+	src: url(../fonts/AvenirLTStd-Oblique.otf);
+	  font-style: italic;
+	       
+	}
+
+	@font-face {
+	font-family: 'AvenirLTStd-Book';
+	src: url(../fonts/AvenirLTStd-Book.otf);
+	  
+	       
+	}
+
+
+	body {
+	font-family: 'AvenirLTStd';
+	}
+	h1, h2, h3, h4, h5, h6, p, a {
+		font-family: 'AvenirLTStd';
+
+	}
