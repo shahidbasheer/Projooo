@@ -1179,7 +1179,7 @@
 					border-top:0; 
 					&:last-child { text-align: right; }
 				}
-			span.cat{
+			span.status{
 				display: inline-block;
 				width: 14px;
 				height: 14px;
@@ -1227,11 +1227,65 @@
 				margin-right: 20px;
 			}
 			.heading	{
-				p { display: inline-block;  font-size: 18px; color: #7F7878; }
+				p { display: inline-block;  font-size: 18px; color: #9e9e9e; margin:  0 0 8px;}
+				a { 
+					color: blue;
+					text-decoration: underline; 
+					font-size: 1em;
+					margin-right: 6px;
+					font-weight: bold;
+					float: right; 
+				}
 			}
 
 		}
-	
+
+		.todo-status-open{
+			background: #267300 !important; //dark green
+		}
+
+		.todo-status-under-review{
+			background: #4ce700 !important; //light green
+		}
+
+		.todo-status-accepted {
+			background: #ffde00  !important; //light green
+		}
+		.todo-status-inprogress {
+				background: #ff6c00 !important; //orange
+		}
+		.todo-status-closed-complete {
+				background: #ff00fc !important; //pink
+		}
+
+		.todo-status-blue {
+				background: #000fa1 !important; //blue
+		}
+		.todo-status-closed {
+				background: #4f4f4f !important; //gray
+		}
+ 
+		.bug-status-open {
+				background: #267300 !important; //gray
+		}
+
+		.bug-status-under-rv {
+				background: #ff6c00 !important; //gray
+		}
+
+		.bug-status-work-in-pr {
+				background: #000fa1 !important; //gray
+		}
+
+		.bug-status-closed-complete {
+				background: #4f4f4f !important; //gray
+		}
+
+		.bug-status-repon {
+				background: #4ce700 !important; //gray
+		}
+
+		
 	
 }
 
@@ -1242,6 +1296,7 @@
 		}
 	select {
 		color: #525252;
+		font-size: 1.2em; 
 	}
 	.btn {padding: 6px 48px; }
 
@@ -1254,6 +1309,13 @@
 }
 
 #modal-work-flow-status {
+	
+	
+	.modal-header .close {
+    	margin-top: 2px;
+    	font-size: 14px;
+		}
+
 	.modal-title {
 		color: #000;
 	}
@@ -1367,14 +1429,20 @@
 
 
 //invoice Modal
-#invoice-modal {
+#invoice-modal, #invoice-modal-complete {
 
 	.invoce-header {
+		margin-bottom: 20px; 
 		p {margin-bottom: 0; }
 	}
+	.modal-body {
+    
+    	padding: 15px 30px;
+	}
+
 
 	.modal-header {
-	 
+	 	    padding: 15px 26px;
 	    margin-left: -10px;
 	       margin-right: -10px;
 	}
@@ -1385,7 +1453,7 @@
 	    		font-size: 12px; 
 	    }
 	}
-
+	
 	.modal-content {
 	      
 	      border-radius: 0px;
@@ -1397,11 +1465,19 @@
 		
 		h4, h5 {color: #000 ; font-weight: bold; }
 
-		.table {margin-top: 20px; }
-
+		.table {
+			margin-top: 40px;
+			    margin-bottom: 35px;
+			border-collapse: separate;
+		 }
+			.table tr th.noborder {
+			  border: none;
+			  padding-top: 0px;
+			}
 
 	    .table>thead>tr>th { vertical-align: bottom; border-bottom: 0; border-top: 1px solid #ddd; border-bottom: 0;
-	    						padding: 14px 24px; 
+	    						padding: 14px 24px;
+	    						color: #000; 
 						    	&:first-child {
 									border-left: 1px solid #ddd;
 						    	}
@@ -1412,6 +1488,7 @@
 	    }  
 	    .table tbody td { 
 	    	padding: 14px 24px; 
+
 	    	&:first-child {
 				border-left: 1px solid #ddd;
 	    	}
@@ -1425,26 +1502,30 @@
 	    	&:last-child {
 	    		td {
 	    			margin-top: 10px; 
+	    			&:last-child {
+						border-right: 0; 
+			    	}
 	    		}
 	    	}
 	    }
 	    .t-body td {
-	    	height: 200px; 
+	    	height: 130px; 
 	    }
 
 	    .coupen td {
-
+			border-bottom: 1px solid #ddd; 
 	    }
-	    .total td {background: #fdec56; font-weight: bold;  }
+	    .total td {background: #fdec56; color: #000; font-weight: bold; border: 0 !important;  border-right: 0;   }
 
 	    footer {
-	    	max-width: 600px; 
+	    	
 	    	display: block;
 	    	margin-right: auto;
 	    	margin-left: auto;
-
+	    	text-align: center;
+			
 	    	.bnt-payment {
-		    	color: blue;
+		    	color: #0b009e;
 		    	text-decoration: underline;
 		    	font-size: 26px; 
 		    	text-align: center; 
@@ -1452,9 +1533,18 @@
 
 	    	}
 	    	p  {
+	    		text-align: center;
+	    		max-width: 450px; 
 	    		margin-top: 16px;
 	    		font-size: 12px; 
-	    		color: #ddd; 
+	    		color: #c0c0c0; 
+	    	}
+
+	    	.bnt-payment-paid {
+	    		color: #00920a;
+		    	text-decoration: none;
+		    	font-size: 24px; 
+		    	text-align: center; 
 	    	}
 
 	    }

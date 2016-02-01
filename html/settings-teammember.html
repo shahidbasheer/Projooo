@@ -9,18 +9,8 @@
 					
 					<div class="row">
 						<div class="app-setting__sidebar">
-							<h5>Quick Menu</h5>
-							<ul class="list-unstyled">
-								<li><a href="#">General Settings</a></li>
-								<li><a href="#">App Configuration</a></li>
-								<li><a href="#">Staff Members</a></li>
-								<li><a href="#">Administrator</a></li>
-								<li><a href="#">Billing & Invoice</a></li>
-								<li><a href="#">Change Password</a></li>
-								<li><a href="#">Update Profile</a></li>
-								<li><a href="#">Logoff</a></li>
-							</ul>
-						</div>					
+							<!-- @include html_Moudles/app-setting__sidebar.html -->
+						</div>		 <!-- app-setting__sidebar -->			
 						<div class="app-setting__team-m">
 							<header>
 								<h4>Staff Members</h4>
@@ -176,29 +166,23 @@
 			</p>
 		</footer>
 					<!-- Modal -->
-  							<div class="modal fade" id="modal-work-flow-status" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  							  <div class="modal-dialog" role="document">
-  							    <div class="modal-content">
-  							      <div class="modal-header">
-  							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  							        <h4 class="modal-title" id="myModalLabel">Update Your Work Flow</h4>
-  							      </div>
-  							      <div class="modal-body">
-  							        <div class="row">
-  							        	<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-  							        		<label class="">Update Your Status</label>
-  							        		<input type="text" name="" id="input" class="form-control" value="" required="required" pattern="" title="">
-  							        	</div>
-  							        </div>
-
-  							           <button type="button" class="btn btn-success" data-dismiss="modal">Save Update</button>  				
-  							      </div>
-  				    
-  							     
-  							    </div>
-  							  </div>
-  							</div>
-  						<!-- Without Border -->
+                          <div class="modal fade" id="invoice-modal-complete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document" style="max-width: 956px; width: 100%; ">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X-Close</span>
+                                  </button>
+                                  <h4 class="modal-title" id="myModalLabel">Invoice</h4>
+                                </div>
+                                <div class="modal-body">
+                                     <div class="row no-margin">
+                                       
+                                     </div>                    
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <!-- Without Border -->
 
 
          <!-- @include html_Moudles/footer.html -->
