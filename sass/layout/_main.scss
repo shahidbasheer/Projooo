@@ -284,8 +284,8 @@
 		border-top-left-radius: 17px;
 		border-top-right-radius: 17px;
 		margin-bottom: 20px; 
-		&.red { background:  $red; }
-		&.green { background:  #00a765; }
+		&.nofification--red { background:  $red; color: #fff; }
+		&.nofification--green { background:  #00a765; color: #fff;}
 	}
 
 	.signup__checkbox {
