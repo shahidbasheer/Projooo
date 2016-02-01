@@ -31,6 +31,8 @@
 }
 
 
+
+
 //size of btn
 
 .btn-lg {
@@ -62,3 +64,23 @@
    @include button-bg(#3498db);
 }
 
+
+
+.btn-app-green {
+  background: #00a765;
+  color: #fff;
+  border-radius: 5px;
+  border-bottom: 3px solid #006e42;
+  padding: 6px 48px;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; /* !important tags aren't necessarily always bad */
+}
+.btn-app-green:hover, .btn-app-green:focus {
+  background: darken( #00a765, 5% );
+   color: #fff;
+}
+.btn-app-green:active {
+  background: darken( #00a765, 5% );
+   color: #fff;
+}
