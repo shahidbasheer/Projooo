@@ -39,7 +39,17 @@ section.intro {
 	h1 {font-weight: 700;     margin-top: 10px; color: #fff; }
 	p {font-weight: bold; }
 	.btn {padding: 14px 38px; }
-	.form-control {    height: 48px;  width: 358px; margin-right: 11px; border-color: $blue-dark;
+	
+	@include breakpoint ($xs) {
+			.form-control {margin-bottom: 10px; width: 235px !important; }	
+		}
+
+	@include breakpoint ($sm) {
+			.form-control {margin-bottom: 10px; max-width: 200px; }	
+		}
+
+	.form-control {    height: 48px;  width: 250px; margin-right: 11px; border-color: $blue-dark;
+		
 	
 	&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
 	    color:     $blue-dark;
@@ -240,7 +250,7 @@ article.single-post {
 				text-transform: capitalize; 
 				&:hover , &:focus { color: #333;  }
 		}
-		margin-bottom: 50px; 
+		margin-bottom: 0; 
 	}
 	.entry-content-thumbnail { margin-bottom: 38px; margin-top: 20px; width: 100%;  height: auto; }
 	
@@ -348,4 +358,93 @@ span a.more {
 		color: $blue-text; 
 		text-decoration: underline; 
 	}
+}
+
+
+#modal-form {
+	.modal-content {
+      
+      border-radius: 0px;
+      outline: 0;
+      -webkit-box-shadow:none;
+              box-shadow:none;
+    }
+    .modal-body {
+	    
+    	text-align: center;
+	}
+
+
+    .form-control {border-radius: 0;      width: 100%;
+    				max-width: 82%;
+    			    height: 48px;
+    			    margin-bottom: 20px;
+    			    margin-right: 0;  
+				   
+				    border-color: #003471;
+				    &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+					    color:     $blue-dark;
+					}
+					&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+					   color:     $blue-dark;
+					   opacity:  1;
+					}
+					&::-moz-placeholder { /* Mozilla Firefox 19+ */
+					   color:     $blue-dark;
+					   opacity:  1;
+					}
+					&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+					   color:     $blue-dark;
+					}
+					&:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+					  color:     $blue-dark;
+
+    		}
+    }
+
+    		.modal-footer {
+    
+			    border-top: 0;
+				}
+
+			.modal-header {
+		    
+		    		border-bottom: 0;
+				}
+
+
+			.form-control:focus { border-color: $blue-dark; }
+			&.about-us {
+			padding:	40px 0 40px;
+			}
+
+			.btn {
+				width: 100%;
+				max-width: 82%;
+    			padding: 14px 38px;
+			}
+
+			.modal-title {
+				color: #0072bc;
+				font-weight: 700px;
+				font-size: 26px; 
+			    text-align: center;
+			}
+}
+
+.notification {
+	border: 2px solid #ddd;
+	border-radius: 6px;
+	margin-top: 6px; 
+	max-width: 500px; 
+	margin: 0 auto;
+	padding: 20px; 
+	//display: none;
+	&.red { border-color: red; p {  color: red; } } 
+	&.green { border-color: green; p {  color: green; } } 
+	p {
+		margin-bottom: 0; 
+
+	}
+
 }

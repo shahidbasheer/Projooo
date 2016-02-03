@@ -119,7 +119,7 @@ var gulp = require('gulp'),
 
 	var config_rb = rootAddress  + 'config.rb';
 	var compassSource = rootAddress  + 'sass/*.scss';
-	//var compassDest = rootAddress  + 'css';
+	var compassDest_2 = rootAddress  + 'css';
 	var compassDest = rootAddress  + 'C:\\xampp\\apps\\wordpress\\htdocs\\wp-content\\themes\\projoo_theme\\includes\\css';
 	
 	var sassFolder = rootAddress  + 'sass';
@@ -140,6 +140,7 @@ var gulp = require('gulp'),
 	 	.pipe(rename({ suffix: '.min' }))
 	  	.pipe(minifycss())
 	  	.pipe(gulp.dest( compassDest ))
+	  	.pipe(gulp.dest( compassDest_2 ))
 	  	.pipe(reload({stream:true}))
 	  	.pipe(notify({
 	      message: 'Styles task complete'
