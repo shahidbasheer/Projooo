@@ -1,0 +1,165 @@
+/*
+ * ----------------------------------------------------------------------------------------
+ * Main styles.
+ * ----------------------------------------------------------------------------------------
+ */
+body {
+	max-width: 1200px;
+	margin: 0 auto; 
+	padding: 0 60px; 
+	background:#e2e7ea;
+}
+.main-content{
+	background: #fff;	
+
+}
+
+
+
+
+
+.site-header {
+	background: url('../img/banner-bg.png') no-repeat center center;
+    background-size:cover;	
+	padding: 0 20px 56%;
+		
+		@include breakpoint ($xs) {
+			
+			background: #fff;
+			
+			padding: 50px 20px 50px;	
+		}
+}
+
+.site-branding {
+	max-width: 400px;
+	float: left;
+	margin-left: 90px; 
+	margin-top: 140px;
+	h1 {font-size: 30px; font-weight: bold; }
+	p {font-weight: bold; color: #000; text-decoration: underline; }
+		@include breakpoint ($xs) {
+			margin-left: 0px;	
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+			margin-top: 0;
+
+		}
+			@include breakpoint ($sm) {
+				margin-left: 10px;	
+			}
+
+			@include breakpoint ($md) {
+				margin-left: 20px;	
+			}
+
+}
+
+
+
+
+section {
+
+	margin-bottom: 50px; 
+}
+.intro-lead{
+	background: #f7f9fa;
+	color: #5090b0; 
+	border-color: #dbe3e7;
+	padding: 32px 90px;
+	@include breakpoint ($xs) {
+		    padding: 32px 64px;	
+
+	}
+	text-align: center;
+	p.lead {
+		font-family: 'AvenirLTStd-Heavy';
+		font-size: 18px; 
+	}
+	
+
+}
+.intor-lead__inner{
+	max-width: 750px;
+	margin: 0 auto;
+	p {margin-bottom: 0; }
+}
+
+.intro {
+	text-align: center;
+	padding: 0 90px;
+	@include breakpoint ($xs) {
+		    padding: 0 64px;	
+	}
+
+}
+
+.intor__inner {
+	
+	h3 {margin-bottom: 36px; }
+	max-width: 720px;
+	margin: 0 auto;
+	p {font-size: 22px;}
+}
+
+
+.services {
+	padding: 0 90px;
+		@include breakpoint ($xs) {
+			    padding: 0 64px;	
+		}
+	text-align: center; 
+	img { margin:0 auto 20px auto;}
+	
+	[class*='col-'] { 
+		margin-bottom: 60px; 
+	}
+}
+
+
+.cta{
+	border-top: 1px solid #dbe3e7;
+	border-bottom: 1px solid #dbe3e7;
+	background: #f7f9fa;
+	padding: 0 72px;
+}
+.cta__left {
+	width: 30%;
+		@include breakpoint ($xs) {
+			width: 50%;	
+			    max-width: 250px;
+		}
+	max-width: 232px;
+	min-width: 200px;
+	float: left;
+	padding: 30px  32px;
+	background: #50a9d7;
+	color: #fff;
+	h3 {color: #fff; margin-bottom: 36px;  }
+	a {color: #fff; text-decoration: underline; font-weight: bold; }
+}
+.cta__right{
+	width: 70%;
+	float: left;
+	padding: 36px 0px 36px 64px;
+	
+		@include breakpoint ($xs) {
+			padding-left: 0; 
+			width: 100%;
+	}
+
+	h4 {font-size: 22px; text-decoration: underline;  }
+	a {font-family: 'AvenirLTStd-Heavy'; color: #5090b0;}
+	.tag-line {color: #000; }
+
+}
+
+.service-cta {
+	padding: 36px 64px;	
+	h2 {color: #7f7f7f; margin-bottom: 0; font-size: 36px; margin-top: 0; }
+	p {text-transform: uppercase; color: #000;  font-weight: bold; }
+		@include breakpoint ($xs) {
+			padding: 6px 64px;	
+		}
+}

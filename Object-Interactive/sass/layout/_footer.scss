@@ -1,0 +1,32 @@
+/*
+ * ----------------------------------------------------------------------------------------
+ * Footer styles.
+ * ----------------------------------------------------------------------------------------
+ */
+
+ .site-footer {
+ 	background: #eef2f4;
+ 	border-color: #dbe3e7; 
+ 	padding:20px 79px;
+ 	h5 {
+ 			display: inline-block; 
+ 			margin-right: 20px; 
+ 			font-size: 16px;
+ 			color: #000; 
+ 			margin-bottom: 0; 
+		
+ 		}
+ 	
+ 	ul {
+ 		display: inline-block;
+ 		margin-bottom: 0; 	
+ 		li {
+ 			a {
+ 				font-family: 'AvenirLTStd-Heavy';
+ 				font-size: 16px;
+ 				color: #b4b4b4; 
+ 			}
+ 		}
+ 	}
+
+ }
