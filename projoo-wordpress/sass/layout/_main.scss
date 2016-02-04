@@ -433,7 +433,7 @@ span a.more {
 }
 
 .notification {
-	border: 2px solid #ddd;
+	border: 2px solid #fff;
 	border-radius: 6px;
 	margin-top: 6px; 
 	max-width: 500px; 
@@ -441,10 +441,15 @@ span a.more {
 	padding: 20px; 
 	display: none;
 	&.red { border-color: red; p {  color: red; } } 
-	&.green { border-color: green; p {  color: green; } } 
+	&.green { border-color: #fff; p {  color:  #fff; } } 
+
+	&.blog-form.red { border-color: red; p {  color: red; } } 
+	&.blog-form.green { border-color: green; p {  color:  green; } } 
+
 	p {
 		margin-bottom: 0; 
 
 	}
+	i {margin-right: 14px;}
 
 }
